@@ -1,10 +1,14 @@
 import './style.css';
+import earcut from 'earcut';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/Addons.js';
 import GUI from 'three/examples/jsm/libs/lil-gui.module.min.js';
 import Stats from 'three/examples/jsm/libs/stats.module.js';
+import aci from './aci.json';
+import dxf from './json/plot_screening_and_fill_patterns.json';
 import MinMaxGUIHelper from './utils/MinMaxGUIHelper';
 import resizeRendererToDisplaySize from './utils/resizeRendererToDisplaySize';
+import sortPolygonVertices from './utils/sortPolygonVertices';
 
 function main() {
 	const canvas = document.getElementById('canvas')!;
@@ -87,43 +91,7 @@ function main() {
 		return { gui, stats };
 	}
 
-	function addLight() {
-		const color = 0xffffff;
-		const intensity = 3;
-		const light = new THREE.DirectionalLight(color, intensity);
-		light.position.set(-200, 100, 100);
-		scene.add(light);
-		scene.add(light.target);
-
-		const helper = new THREE.DirectionalLightHelper(light, 50);
-		scene.add(helper);
-	}
-
 	function addObjects() {
-		const sphereRadius = 50;
-		const sphereWidthDivisions = 32;
-		const sphereHeightDivisions = 16;
-		const sphereGeo = new THREE.SphereGeometry(
-			sphereRadius,
-			sphereWidthDivisions,
-			sphereHeightDivisions,
-		);
-		const sphereMat = new THREE.MeshPhongMaterial({ color: '#CA8' });
-		const sphereMesh = new THREE.Mesh(sphereGeo, sphereMat);
-		sphereMesh.position.set(-sphereRadius - 1, sphereRadius + 2, 0);
-		scene.add(sphereMesh);
-
-		const geometry = new THREE.PlaneGeometry(60, 120);
-		const material = new THREE.MeshBasicMaterial({
-			color: 'red',
-			transparent: true,
-			opacity: 0.5,
-		});
-		const plane = new THREE.Mesh(geometry, material);
-		scene.add(plane);
-		const box = new THREE.BoxHelper(plane, 0xffff00);
-		scene.add(box);
-
 		const bufferGeometry = new THREE.BufferGeometry();
 		// create a simple square shape. We duplicate the top left and bottom right
 		// vertices because each vertex needs to appear once per triangle.
@@ -190,15 +158,44 @@ function main() {
 		const caShape = new THREE.Shape(caPts);
 		const caGeo = new THREE.ShapeGeometry(caShape);
 		const caMaterial = new THREE.MeshBasicMaterial({ color: 'hotpink' });
-		const caMesh = new THREE.Mesh(caGeo, caMaterial);
-		scene.add(caMesh);
+		const ca = new THREE.Mesh(caGeo, caMaterial);
+		scene.add(ca);
+
+		const allSolids = dxf.entities.filter((entity) => entity.type === 'SOLID');
+		allSolids.forEach((solid) => {
+			const { points, colorIndex } = solid;
+			if (!points) {
+				throw new Error(`Invalid points: ${points}`);
+			}
+			if (!(colorIndex >= 1 && colorIndex <= 255)) {
+				throw new Error(`Invalid colorIndex: ${colorIndex}`);
+			}
+
+			const pointsSorted = sortPolygonVertices(solid.points);
+			const vertices2D: number[] = [];
+
+			for (const p of pointsSorted) {
+				vertices2D.push(p.x, p.y);
+			}
+
+			const indices = earcut(vertices2D);
+			const vertices3D = new Float32Array(pointsSorted.flatMap((p) => [p.x, p.y, p.z]));
+			const geo = new THREE.BufferGeometry();
+			geo.setAttribute('position', new THREE.BufferAttribute(vertices3D, 3));
+			geo.setIndex(new THREE.BufferAttribute(new Uint16Array(indices), 1));
+			const solidMaterial = new THREE.MeshBasicMaterial({
+				color: `#${aci[colorIndex]}`,
+				side: THREE.DoubleSide,
+			});
+			const solidMesh = new THREE.Mesh(geo, solidMaterial);
+			scene.add(solidMesh);
+		});
 	}
 
 	const mainCam = addMainCam();
 	const metaCam = addMetaCam();
 	const { cameraHelper } = addHelpers();
 	const { stats } = addGUIs();
-	addLight();
 	addObjects();
 
 	function onWindowResize() {
@@ -245,3 +242,32 @@ function main() {
 }
 
 main();
+
+function logJsonInfo() {
+	const allTypes = dxf.entities.map((entity) => entity.type);
+	const allPossibleTypes = new Set();
+	allTypes.forEach((type) => {
+		allPossibleTypes.add(type);
+	});
+	// console.log('allPossibleTypes', allPossibleTypes);
+
+	// const allSolids = dxf.entities.filter((entity) => entity.type === 'SOLID');
+	// console.log('allSolids', allSolids);
+
+	// 04.QH:
+	// [
+	//   "LINE",
+	//   "LWPOLYLINE",
+	//   "CIRCLE",
+	//   "ARC",
+	//   "HATCH",
+	//   "TEXT",
+	//   "MTEXT",
+	//   "ATTRIB",
+	//   "ATTDEF",
+	//   "DIMENSION",
+	//   "LEADER",
+	//   "VIEWPORT",
+	// ]
+}
+logJsonInfo();
