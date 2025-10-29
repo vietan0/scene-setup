@@ -1,0 +1,9490 @@
+{
+	"header": {
+		"$ACADVER": "AC1018",
+		"$ACADMAINTVER": 0,
+		"$DWGCODEPAGE": "ANSI_1252",
+		"$TITLE": "Plot Shading and Fill Patterns",
+		"$SUBJECT": "Plot Styles",
+		"$AUTHOR": "Autodesk, Inc.",
+		"$KEYWORDS": "Plot styles, shading, fill, patterns, grayscale, screening",
+		"$COMMENTS": "This drawing provides examples of grayscale and plot screening for each of the 255 AutoCAD colors.  Examples of fill patterns are also included.",
+		"$LASTSAVEDBY": "cloudconvert",
+		"$INSBASE": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$EXTMIN": {
+			"x": 0.9285714285714282,
+			"y": -11.87787056367432,
+			"z": 0
+		},
+		"$EXTMAX": {
+			"x": 332.6189914841083,
+			"y": 115.5674256541001,
+			"z": 0
+		},
+		"$LIMMIN": {
+			"x": 0,
+			"y": -15
+		},
+		"$LIMMAX": {
+			"x": 350,
+			"y": 120
+		},
+		"$ORTHOMODE": 0,
+		"$REGENMODE": 1,
+		"$FILLMODE": 1,
+		"$QTEXTMODE": 0,
+		"$MIRRTEXT": 0,
+		"$LTSCALE": 1,
+		"$ATTMODE": 1,
+		"$TEXTSIZE": 0.2,
+		"$TRACEWID": 0.05,
+		"$TEXTSTYLE": "Standard",
+		"$CLAYER": "0",
+		"$CELTYPE": "ByLayer",
+		"$CECOLOR": 256,
+		"$CELTSCALE": 1,
+		"$DISPSILH": 0,
+		"$DIMSCALE": 1,
+		"$DIMASZ": 0.18,
+		"$DIMEXO": 0.0625,
+		"$DIMDLI": 0.38,
+		"$DIMRND": 0,
+		"$DIMDLE": 0,
+		"$DIMEXE": 0.18,
+		"$DIMTP": 0,
+		"$DIMTM": 0,
+		"$DIMTXT": 0.18,
+		"$DIMCEN": 0.09,
+		"$DIMTSZ": 0,
+		"$DIMTOL": 0,
+		"$DIMLIM": 0,
+		"$DIMTIH": 1,
+		"$DIMTOH": 1,
+		"$DIMSE1": 0,
+		"$DIMSE2": 0,
+		"$DIMTAD": 0,
+		"$DIMZIN": 0,
+		"$DIMBLK": "",
+		"$DIMASO": 1,
+		"$DIMSHO": 1,
+		"$DIMPOST": "",
+		"$DIMAPOST": "",
+		"$DIMALT": 0,
+		"$DIMALTD": 2,
+		"$DIMALTF": 25.4,
+		"$DIMLFAC": 1,
+		"$DIMTOFL": 0,
+		"$DIMTVP": 0,
+		"$DIMTIX": 0,
+		"$DIMSOXD": 0,
+		"$DIMSAH": 0,
+		"$DIMBLK1": "",
+		"$DIMBLK2": "",
+		"$DIMSTYLE": "Standard",
+		"$DIMCLRD": 0,
+		"$DIMCLRE": 0,
+		"$DIMCLRT": 0,
+		"$DIMTFAC": 1,
+		"$DIMGAP": 0.09,
+		"$DIMJUST": 0,
+		"$DIMSD1": 0,
+		"$DIMSD2": 0,
+		"$DIMTOLJ": 1,
+		"$DIMTZIN": 0,
+		"$DIMALTZ": 0,
+		"$DIMALTTZ": 0,
+		"$DIMUPT": 0,
+		"$DIMDEC": 4,
+		"$DIMTDEC": 4,
+		"$DIMALTU": 2,
+		"$DIMALTTD": 2,
+		"$DIMTXSTY": "Standard",
+		"$DIMAUNIT": 0,
+		"$DIMADEC": 0,
+		"$DIMALTRND": 0,
+		"$DIMAZIN": 0,
+		"$DIMDSEP": 46,
+		"$DIMATFIT": 3,
+		"$DIMFRAC": 0,
+		"$DIMLDRBLK": "",
+		"$DIMLUNIT": 2,
+		"$DIMLWD": -2,
+		"$DIMLWE": -2,
+		"$DIMTMOVE": 0,
+		"$LUNITS": 2,
+		"$LUPREC": 4,
+		"$SKETCHINC": 0.1,
+		"$FILLETRAD": 0,
+		"$AUNITS": 0,
+		"$AUPREC": 0,
+		"$MENU": ".",
+		"$ELEVATION": 0,
+		"$PELEVATION": 0,
+		"$THICKNESS": 0,
+		"$LIMCHECK": 0,
+		"$CHAMFERA": 0,
+		"$CHAMFERB": 0,
+		"$CHAMFERC": 0,
+		"$CHAMFERD": 0,
+		"$SKPOLY": 0,
+		"$TDCREATE": 2451208.769244144,
+		"$TDUCREATE": 2451208.769244144,
+		"$TDUPDATE": 2460978.376832257,
+		"$TDUUPDATE": 2460978.376832257,
+		"$TDINDWG": 0.0743066319,
+		"$TDUSRTIMER": 0.0743062847,
+		"$USRTIMER": 1,
+		"$ANGBASE": 0,
+		"$ANGDIR": 0,
+		"$PDMODE": 0,
+		"$PDSIZE": 0,
+		"$PLINEWID": 0,
+		"$SPLFRAME": 0,
+		"$SPLINETYPE": 6,
+		"$SPLINESEGS": 8,
+		"$HANDSEED": "7AA",
+		"$SURFTAB1": 6,
+		"$SURFTAB2": 6,
+		"$SURFTYPE": 6,
+		"$SURFU": 6,
+		"$SURFV": 6,
+		"$UCSBASE": "",
+		"$UCSNAME": "",
+		"$UCSORG": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$UCSXDIR": {
+			"x": 1,
+			"y": 0,
+			"z": 0
+		},
+		"$UCSYDIR": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"$UCSORTHOREF": "",
+		"$UCSORTHOVIEW": 0,
+		"$UCSORGTOP": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$UCSORGBOTTOM": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$UCSORGLEFT": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$UCSORGRIGHT": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$UCSORGFRONT": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$UCSORGBACK": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$PUCSBASE": "",
+		"$PUCSNAME": "",
+		"$PUCSORG": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$PUCSXDIR": {
+			"x": 1,
+			"y": 0,
+			"z": 0
+		},
+		"$PUCSYDIR": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"$PUCSORTHOREF": "",
+		"$PUCSORTHOVIEW": 0,
+		"$PUCSORGTOP": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$PUCSORGBOTTOM": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$PUCSORGLEFT": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$PUCSORGRIGHT": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$PUCSORGFRONT": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$PUCSORGBACK": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$USERI1": 0,
+		"$USERI2": 0,
+		"$USERI3": 0,
+		"$USERI4": 0,
+		"$USERI5": 0,
+		"$USERR1": 0,
+		"$USERR2": 0,
+		"$USERR3": 0,
+		"$USERR4": 0,
+		"$USERR5": 0,
+		"$WORLDVIEW": 1,
+		"$SHADEDGE": 3,
+		"$SHADEDIF": 70,
+		"$TILEMODE": 0,
+		"$MAXACTVP": 64,
+		"$PINSBASE": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"$PLIMCHECK": 0,
+		"$PEXTMIN": {
+			"x": 1.04960627518301,
+			"y": 0.7996062751830095,
+			"z": 0
+		},
+		"$PEXTMAX": {
+			"x": 9.446456476647084,
+			"y": 7.279579086177946,
+			"z": 0
+		},
+		"$PLIMMIN": {
+			"x": -0.2519687479875221,
+			"y": -0.2104072554909262
+		},
+		"$PLIMMAX": {
+			"x": 10.74803101171659,
+			"y": 8.289592504213182
+		},
+		"$UNITMODE": 0,
+		"$VISRETAIN": 1,
+		"$PLINEGEN": 0,
+		"$PSLTSCALE": 1,
+		"$TREEDEPTH": 3020,
+		"$CMLSTYLE": "Standard",
+		"$CMLJUST": 0,
+		"$CMLSCALE": 1,
+		"$PROXYGRAPHICS": 1,
+		"$MEASUREMENT": 0,
+		"$CELWEIGHT": -1,
+		"$ENDCAPS": 0,
+		"$JOINSTYLE": 0,
+		"$LWDISPLAY": false,
+		"$INSUNITS": 0,
+		"$HYPERLINKBASE": "",
+		"$STYLESHEET": "",
+		"$XEDIT": true,
+		"$CEPSNTYPE": 0,
+		"$PSTYLEMODE": true,
+		"$FINGERPRINTGUID": "{787809E6-B7A0-11D2-9A44-0060089B3A3F}",
+		"$VERSIONGUID": "{F756C5E2-A50F-46CE-94C1-F9F2A120000B}",
+		"$EXTNAMES": true,
+		"$PSVPSCALE": 0,
+		"$OLESTARTUP": false,
+		"$SORTENTS": 127,
+		"$INDEXCTL": 0,
+		"$HIDETEXT": 0,
+		"$XCLIPFRAME": false,
+		"$HALOGAP": 0,
+		"$OBSCOLOR": 257,
+		"$OBSLTYPE": 0,
+		"$INTERSECTIONDISPLAY": 0,
+		"$INTERSECTIONCOLOR": 257,
+		"$DIMASSOC": 1,
+		"$PROJECTNAME": ""
+	},
+	"blocks": {
+		"*Model_Space": {
+			"handle": "20",
+			"ownerHandle": "1F",
+			"layer": "0",
+			"name": "*Model_Space",
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"name2": "*Model_Space",
+			"xrefPath": ""
+		},
+		"*Paper_Space": {
+			"handle": "2D2",
+			"ownerHandle": "2CE",
+			"paperSpace": true,
+			"layer": "0",
+			"name": "*Paper_Space",
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"name2": "*Paper_Space",
+			"xrefPath": ""
+		},
+		"Color Swatch": {
+			"handle": "2D",
+			"ownerHandle": "2B",
+			"layer": "0",
+			"name": "Color Swatch",
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"name2": "Color Swatch",
+			"xrefPath": "",
+			"entities": [
+				{
+					"handle": "2C",
+					"ownerBlockRecordSoftId": "2B",
+					"layer": "0",
+					"colorIndex": 0,
+					"subclassMarker": "AcDbTrace",
+					"points": [
+						{
+							"x": -0.0000259853113391,
+							"y": -0.0000297798691946,
+							"z": 0
+						},
+						{
+							"x": -0.0000259853113391,
+							"y": 6.699970220130808,
+							"z": 0
+						},
+						{
+							"x": 4.799974014688672,
+							"y": -0.0000297798691946,
+							"z": 0
+						},
+						{
+							"x": 4.799974014688672,
+							"y": 6.699970220130808,
+							"z": 0
+						}
+					],
+					"type": "SOLID"
+				}
+			]
+		},
+		"*Paper_Space1": {
+			"handle": "2C2",
+			"ownerHandle": "2BE",
+			"layer": "0",
+			"name": "*Paper_Space1",
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"name2": "*Paper_Space1",
+			"xrefPath": "",
+			"entities": [
+				{
+					"handle": "2BF",
+					"extensions": {
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "738"
+							}
+						]
+					},
+					"ownerBlockRecordSoftId": "2BE",
+					"layer": "0",
+					"subclassMarker": "AcDbViewport",
+					"viewportCenter": {
+						"x": 5.245412673365194,
+						"y": 4.97248469075799,
+						"z": 0
+					},
+					"width": 14.48555971707398,
+					"height": 10.85850251092087,
+					"status": 2,
+					"viewportId": 1,
+					"displayCenter": {
+						"x": 5.245412673365194,
+						"y": 4.97248469075799
+					},
+					"snapBase": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"gridSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"viewDirection": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"targetPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"perspectiveLensLength": 50,
+					"frontClipZ": 0,
+					"backClipZ": 0,
+					"viewHeight": 10.85850251092087,
+					"snapAngle": 0,
+					"viewTwistAngle": 0,
+					"circleZoomPercent": 100,
+					"statusBitFlags": 32800,
+					"sheetName": "",
+					"renderMode": 0,
+					"ucsPerViewport": 1,
+					"iconFlag": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"elevation": 0,
+					"shadePlotMode": 0,
+					"type": "VIEWPORT"
+				},
+				{
+					"handle": "2C0",
+					"extensions": {
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "73A"
+							}
+						]
+					},
+					"ownerBlockRecordSoftId": "2BE",
+					"layer": "Viewports",
+					"subclassMarker": "AcDbViewport",
+					"viewportCenter": {
+						"x": 5.245772084074387,
+						"y": 3.748010956648776,
+						"z": 0
+					},
+					"width": 8.392331617782755,
+					"height": 5.896809362931533,
+					"status": 1,
+					"viewportId": 2,
+					"displayCenter": {
+						"x": 255.721488838241,
+						"y": 61.43636170575451
+					},
+					"snapBase": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.25,
+						"y": 0.25
+					},
+					"gridSpacing": {
+						"x": 0,
+						"y": 0
+					},
+					"viewDirection": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"targetPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"perspectiveLensLength": 50,
+					"frontClipZ": 0,
+					"backClipZ": 0,
+					"viewHeight": 117.9361874229119,
+					"snapAngle": 0,
+					"viewTwistAngle": 0,
+					"circleZoomPercent": 1000,
+					"frozenLayerIds": ["2F"],
+					"statusBitFlags": 49248,
+					"sheetName": "",
+					"renderMode": 0,
+					"ucsPerViewport": 1,
+					"iconFlag": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"elevation": 0,
+					"shadePlotMode": 0,
+					"type": "VIEWPORT"
+				},
+				{
+					"handle": "2C1",
+					"ownerBlockRecordSoftId": "2BE",
+					"layer": "0",
+					"subclassMarker": "AcDbText",
+					"startPoint": {
+						"x": 3.641279254782077,
+						"y": 6.744073315641625,
+						"z": 0
+					},
+					"textHeight": 0.4,
+					"text": "Fill Patterns",
+					"styleName": "Swiss Bold",
+					"halign": 1,
+					"endPoint": {
+						"x": 5.216703558923285,
+						"y": 6.744073315641625,
+						"z": 0
+					},
+					"type": "TEXT"
+				}
+			]
+		},
+		"*Paper_Space2": {
+			"handle": "2E0",
+			"ownerHandle": "2DC",
+			"layer": "0",
+			"name": "*Paper_Space2",
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"name2": "*Paper_Space2",
+			"xrefPath": "",
+			"entities": [
+				{
+					"handle": "2DD",
+					"extensions": {
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "73C"
+							}
+						]
+					},
+					"ownerBlockRecordSoftId": "2DC",
+					"layer": "0",
+					"subclassMarker": "AcDbViewport",
+					"viewportCenter": {
+						"x": 5.248031131864532,
+						"y": 4.972344006938088,
+						"z": 0
+					},
+					"width": 14.48555971707398,
+					"height": 10.85850251092087,
+					"status": 1,
+					"viewportId": 1,
+					"displayCenter": {
+						"x": 5.248031131864532,
+						"y": 4.972344006938088
+					},
+					"snapBase": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"gridSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"viewDirection": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"targetPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"perspectiveLensLength": 50,
+					"frontClipZ": 0,
+					"backClipZ": 0,
+					"viewHeight": 10.85850251092087,
+					"snapAngle": 0,
+					"viewTwistAngle": 0,
+					"circleZoomPercent": 1000,
+					"statusBitFlags": 32864,
+					"sheetName": "",
+					"renderMode": 0,
+					"ucsPerViewport": 1,
+					"iconFlag": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"elevation": 0,
+					"shadePlotMode": 0,
+					"type": "VIEWPORT"
+				},
+				{
+					"handle": "2DE",
+					"extensions": {
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "73E"
+							}
+						]
+					},
+					"ownerBlockRecordSoftId": "2DC",
+					"layer": "Viewports",
+					"subclassMarker": "AcDbViewport",
+					"viewportCenter": {
+						"x": 5.248031375915047,
+						"y": 3.748031375915047,
+						"z": 0
+					},
+					"width": 8.396850201464074,
+					"height": 5.896850201464074,
+					"status": 2,
+					"viewportId": 2,
+					"displayCenter": {
+						"x": 73.8499998851803,
+						"y": 44.39403096445409
+					},
+					"snapBase": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.25,
+						"y": 0.25
+					},
+					"gridSpacing": {
+						"x": 0,
+						"y": 0
+					},
+					"viewDirection": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"targetPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"perspectiveLensLength": 50,
+					"frontClipZ": 0,
+					"backClipZ": 0,
+					"viewHeight": 117.9370042140691,
+					"snapAngle": 0,
+					"viewTwistAngle": 0,
+					"circleZoomPercent": 100,
+					"statusBitFlags": 49184,
+					"sheetName": "",
+					"renderMode": 0,
+					"ucsPerViewport": 1,
+					"iconFlag": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"elevation": 0,
+					"shadePlotMode": 0,
+					"type": "VIEWPORT"
+				},
+				{
+					"handle": "2DF",
+					"ownerBlockRecordSoftId": "2DC",
+					"layer": "0",
+					"subclassMarker": "AcDbText",
+					"startPoint": {
+						"x": 3.071829152949083,
+						"y": 6.744073315641625,
+						"z": 0
+					},
+					"textHeight": 0.4,
+					"text": "Screening - 50%",
+					"styleName": "Swiss Bold",
+					"halign": 1,
+					"endPoint": {
+						"x": 5.216703558923285,
+						"y": 6.744073315641625,
+						"z": 0
+					},
+					"type": "TEXT"
+				}
+			]
+		},
+		"*Paper_Space3": {
+			"handle": "2D9",
+			"ownerHandle": "2D5",
+			"layer": "0",
+			"name": "*Paper_Space3",
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"name2": "*Paper_Space3",
+			"xrefPath": "",
+			"entities": [
+				{
+					"handle": "2D6",
+					"extensions": {
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "740"
+							}
+						]
+					},
+					"ownerBlockRecordSoftId": "2D5",
+					"layer": "0",
+					"subclassMarker": "AcDbViewport",
+					"viewportCenter": {
+						"x": 5.248031131864532,
+						"y": 4.972344006938088,
+						"z": 0
+					},
+					"width": 14.48555971707398,
+					"height": 10.85850251092087,
+					"status": 1,
+					"viewportId": 1,
+					"displayCenter": {
+						"x": 5.248031131864532,
+						"y": 4.972344006938088
+					},
+					"snapBase": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"gridSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"viewDirection": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"targetPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"perspectiveLensLength": 50,
+					"frontClipZ": 0,
+					"backClipZ": 0,
+					"viewHeight": 10.85850251092087,
+					"snapAngle": 0,
+					"viewTwistAngle": 0,
+					"circleZoomPercent": 1000,
+					"statusBitFlags": 32864,
+					"sheetName": "",
+					"renderMode": 0,
+					"ucsPerViewport": 1,
+					"iconFlag": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"elevation": 0,
+					"shadePlotMode": 0,
+					"type": "VIEWPORT"
+				},
+				{
+					"handle": "2D7",
+					"extensions": {
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "742"
+							}
+						]
+					},
+					"ownerBlockRecordSoftId": "2D5",
+					"layer": "Viewports",
+					"subclassMarker": "AcDbViewport",
+					"viewportCenter": {
+						"x": 5.248031375915047,
+						"y": 3.748031375915047,
+						"z": 0
+					},
+					"width": 8.396850201464074,
+					"height": 5.896850201464074,
+					"status": 2,
+					"viewportId": 2,
+					"displayCenter": {
+						"x": 75.48841687455646,
+						"y": 44.39403096445409
+					},
+					"snapBase": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.25,
+						"y": 0.25
+					},
+					"gridSpacing": {
+						"x": 0,
+						"y": 0
+					},
+					"viewDirection": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"targetPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"perspectiveLensLength": 50,
+					"frontClipZ": 0,
+					"backClipZ": 0,
+					"viewHeight": 117.9370042140691,
+					"snapAngle": 0,
+					"viewTwistAngle": 0,
+					"circleZoomPercent": 100,
+					"statusBitFlags": 49184,
+					"sheetName": "",
+					"renderMode": 0,
+					"ucsPerViewport": 1,
+					"iconFlag": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"elevation": 0,
+					"shadePlotMode": 0,
+					"type": "VIEWPORT"
+				},
+				{
+					"handle": "2D8",
+					"ownerBlockRecordSoftId": "2D5",
+					"layer": "0",
+					"subclassMarker": "AcDbText",
+					"startPoint": {
+						"x": 3.071829152949083,
+						"y": 6.744073315641625,
+						"z": 0
+					},
+					"textHeight": 0.4,
+					"text": "Screening - 25%",
+					"styleName": "Swiss Bold",
+					"halign": 1,
+					"endPoint": {
+						"x": 5.216703558923285,
+						"y": 6.744073315641625,
+						"z": 0
+					},
+					"type": "TEXT"
+				}
+			]
+		},
+		"*Paper_Space4": {
+			"handle": "2CA",
+			"ownerHandle": "2C6",
+			"layer": "0",
+			"name": "*Paper_Space4",
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"name2": "*Paper_Space4",
+			"xrefPath": "",
+			"entities": [
+				{
+					"handle": "2C7",
+					"extensions": {
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "744"
+							}
+						]
+					},
+					"ownerBlockRecordSoftId": "2C6",
+					"layer": "0",
+					"subclassMarker": "AcDbViewport",
+					"viewportCenter": {
+						"x": 5.248031131864532,
+						"y": 4.972344006938088,
+						"z": 0
+					},
+					"width": 14.48555971707398,
+					"height": 10.85850251092087,
+					"status": 1,
+					"viewportId": 1,
+					"displayCenter": {
+						"x": 5.248031131864532,
+						"y": 4.972344006938088
+					},
+					"snapBase": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"gridSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"viewDirection": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"targetPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"perspectiveLensLength": 50,
+					"frontClipZ": 0,
+					"backClipZ": 0,
+					"viewHeight": 10.85850251092087,
+					"snapAngle": 0,
+					"viewTwistAngle": 0,
+					"circleZoomPercent": 1000,
+					"statusBitFlags": 32864,
+					"sheetName": "",
+					"renderMode": 0,
+					"ucsPerViewport": 1,
+					"iconFlag": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"elevation": 0,
+					"shadePlotMode": 0,
+					"type": "VIEWPORT"
+				},
+				{
+					"handle": "2C8",
+					"extensions": {
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "746"
+							}
+						]
+					},
+					"ownerBlockRecordSoftId": "2C6",
+					"layer": "Viewports",
+					"subclassMarker": "AcDbViewport",
+					"viewportCenter": {
+						"x": 5.248031375915047,
+						"y": 3.748031375915047,
+						"z": 0
+					},
+					"width": 8.396850201464074,
+					"height": 5.896850201464074,
+					"status": 2,
+					"viewportId": 2,
+					"displayCenter": {
+						"x": 73.85000031551154,
+						"y": 44.34764987398239
+					},
+					"snapBase": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.25,
+						"y": 0.25
+					},
+					"gridSpacing": {
+						"x": 0,
+						"y": 0
+					},
+					"viewDirection": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"targetPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"perspectiveLensLength": 50,
+					"frontClipZ": 0,
+					"backClipZ": 0,
+					"viewHeight": 117.9370039839906,
+					"snapAngle": 0,
+					"viewTwistAngle": 0,
+					"circleZoomPercent": 100,
+					"statusBitFlags": 49184,
+					"sheetName": "",
+					"renderMode": 0,
+					"ucsPerViewport": 1,
+					"iconFlag": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"elevation": 0,
+					"shadePlotMode": 0,
+					"type": "VIEWPORT"
+				},
+				{
+					"handle": "2C9",
+					"ownerBlockRecordSoftId": "2C6",
+					"layer": "0",
+					"subclassMarker": "AcDbText",
+					"startPoint": {
+						"x": 3.740396702168364,
+						"y": 6.744073315641625,
+						"z": 0
+					},
+					"textHeight": 0.4,
+					"text": "Grayscales",
+					"styleName": "Swiss Bold",
+					"halign": 1,
+					"endPoint": {
+						"x": 5.216703558923285,
+						"y": 6.744073315641625,
+						"z": 0
+					},
+					"type": "TEXT"
+				}
+			]
+		},
+		"*Paper_Space5": {
+			"handle": "2E7",
+			"ownerHandle": "2E3",
+			"layer": "0",
+			"name": "*Paper_Space5",
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"name2": "*Paper_Space5",
+			"xrefPath": "",
+			"entities": [
+				{
+					"handle": "2E4",
+					"extensions": {
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "748"
+							}
+						]
+					},
+					"ownerBlockRecordSoftId": "2E3",
+					"layer": "0",
+					"subclassMarker": "AcDbViewport",
+					"viewportCenter": {
+						"x": 5.248031131864532,
+						"y": 4.972344006938088,
+						"z": 0
+					},
+					"width": 14.48555971707398,
+					"height": 10.85850251092087,
+					"status": 1,
+					"viewportId": 1,
+					"displayCenter": {
+						"x": 5.248031131864532,
+						"y": 4.972344006938088
+					},
+					"snapBase": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"gridSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"viewDirection": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"targetPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"perspectiveLensLength": 50,
+					"frontClipZ": 0,
+					"backClipZ": 0,
+					"viewHeight": 10.85850251092087,
+					"snapAngle": 0,
+					"viewTwistAngle": 0,
+					"circleZoomPercent": 1000,
+					"statusBitFlags": 32864,
+					"sheetName": "",
+					"renderMode": 0,
+					"ucsPerViewport": 1,
+					"iconFlag": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"elevation": 0,
+					"shadePlotMode": 0,
+					"type": "VIEWPORT"
+				},
+				{
+					"handle": "2E5",
+					"extensions": {
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "74A"
+							}
+						]
+					},
+					"ownerBlockRecordSoftId": "2E3",
+					"layer": "Viewports",
+					"subclassMarker": "AcDbViewport",
+					"viewportCenter": {
+						"x": 5.248031375915047,
+						"y": 3.748031375915047,
+						"z": 0
+					},
+					"width": 8.396850201464074,
+					"height": 5.896850201464074,
+					"status": 2,
+					"viewportId": 2,
+					"displayCenter": {
+						"x": 75.48841754979327,
+						"y": 44.39403143714549
+					},
+					"snapBase": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.25,
+						"y": 0.25
+					},
+					"gridSpacing": {
+						"x": 0,
+						"y": 0
+					},
+					"viewDirection": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"targetPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"perspectiveLensLength": 50,
+					"frontClipZ": 0,
+					"backClipZ": 0,
+					"viewHeight": 117.9370040285727,
+					"snapAngle": 0,
+					"viewTwistAngle": 0,
+					"circleZoomPercent": 100,
+					"statusBitFlags": 49184,
+					"sheetName": "",
+					"renderMode": 0,
+					"ucsPerViewport": 1,
+					"iconFlag": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"elevation": 0,
+					"shadePlotMode": 0,
+					"type": "VIEWPORT"
+				},
+				{
+					"handle": "2E6",
+					"ownerBlockRecordSoftId": "2E3",
+					"layer": "0",
+					"subclassMarker": "AcDbText",
+					"startPoint": {
+						"x": 3.071829152949083,
+						"y": 6.744073315641625,
+						"z": 0
+					},
+					"textHeight": 0.4,
+					"text": "Screening - 75%",
+					"styleName": "Swiss Bold",
+					"halign": 1,
+					"endPoint": {
+						"x": 5.216703558923285,
+						"y": 6.744073315641625,
+						"z": 0
+					},
+					"type": "TEXT"
+				}
+			]
+		}
+	},
+	"entities": [
+		{
+			"handle": "179",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 18,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 4,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "17A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 28,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 10,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "17B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 38,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 16,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "17C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 48,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 22,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "17D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 58,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 28,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "17E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 68,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 34,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "17F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 78,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 40,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "180",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 88,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 46,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "181",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 98,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 52,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "182",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 108,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 58,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "183",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 118,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 64,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "184",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 128,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 70,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "185",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 138,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 76,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "186",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 148,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 82,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "187",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 158,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 88,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "188",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 168,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 94,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "189",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 178,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 100,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "18A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 188,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 106,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "18B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 198,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 112,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "18C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 208,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 118,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "18D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 218,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 124,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "18E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 228,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 130,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "18F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 238,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 136,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "190",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 248,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 142,
+				"y": 85.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "191",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 101,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 58,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "192",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 103,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 58,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "193",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 105,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 58,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "194",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 107,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 58,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "195",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 109,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 58,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "196",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 251,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 60.03433828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 60.03433828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				},
+				{
+					"x": 65.72183828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 65.72183828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "197",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 60.6152311421493,
+				"y": -3.752870563674321,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "251",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 62.87808828500644,
+				"y": -3.752870563674321,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "198",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 57.86,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "100",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 60.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "199",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 17,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 4,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "19A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 27,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 10,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "19B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 37,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 16,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "19C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 47,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 22,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "19D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 57,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 28,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "19E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 67,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 34,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "19F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 77,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 40,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1A0",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 87,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 46,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1A1",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 97,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 52,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1A2",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 0.7190476190476189,
+				"y": 12,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "7",
+			"styleName": "Romans",
+			"halign": 2,
+			"endPoint": {
+				"x": 2.5,
+				"y": 12,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1A3",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 29,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 10,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1A4",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 19,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 4,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1A5",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 0.8238095238095238,
+				"y": 4,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "9",
+			"styleName": "Romans",
+			"halign": 2,
+			"endPoint": {
+				"x": 2.5,
+				"y": 4,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1A6",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 250,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 51.72183828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 51.72183828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				},
+				{
+					"x": 57.40933828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 57.40933828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "1A7",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 69,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 34,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1A8",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 39,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 16,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1A9",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 49,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 22,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1AA",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 59,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 28,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1AB",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 79,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 40,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1AC",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 89,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 46,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1AD",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 99,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 52,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1AE",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 52.05130257072073,
+				"y": -3.752870563674321,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "250",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 54.56558828500644,
+				"y": -3.752870563674321,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1AF",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 21,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 10,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1B0",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 23,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 10,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1B1",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 25,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 10,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1B2",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 13,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 4,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1B3",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 15,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 4,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1B4",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 0.7190476190476192,
+				"y": 20,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "5",
+			"styleName": "Romans",
+			"halign": 2,
+			"endPoint": {
+				"x": 2.5,
+				"y": 20,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1B5",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 0.7190476190476192,
+				"y": 28,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "3",
+			"styleName": "Romans",
+			"halign": 2,
+			"endPoint": {
+				"x": 2.5,
+				"y": 28,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1B6",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 11,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 4,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1B7",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 1.347619047619048,
+				"y": 36,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "1",
+			"styleName": "Romans",
+			"halign": 2,
+			"endPoint": {
+				"x": 2.5,
+				"y": 36,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1B8",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 4.698095238095238,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "10",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 6.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1B9",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 0.7190476190476185,
+				"y": 81.49994044026162,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "8",
+			"styleName": "Romans",
+			"halign": 2,
+			"endPoint": {
+				"x": 2.5,
+				"y": 81.49994044026162,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1BA",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 33,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 16,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1BB",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 43,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 22,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1BC",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 53,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 28,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1BD",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 63,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 34,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1BE",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 73,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 40,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1BF",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 83,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 46,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1C0",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 93,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 52,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1C1",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 65,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 34,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1C2",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 35,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 16,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1C3",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 45,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 22,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1C4",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 55,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 28,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1C5",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 75,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 40,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1C6",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 85,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 46,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1C7",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 95,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 52,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1C8",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 61,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 34,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1C9",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 34.78190476190476,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "60",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 36.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1CA",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 41,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 22,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1CB",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 31,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 16,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1CC",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 51,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 28,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1CD",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 22.82380952380952,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "40",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 24.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1CE",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 10.82380952380952,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "20",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 12.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1CF",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 16.82380952380952,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "30",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 18.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1D0",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 28.82380952380952,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "50",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 30.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1D1",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 81,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 46,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1D2",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 71,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 40,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1D3",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 91,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 52,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1D4",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 46.82380952380952,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "80",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 48.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1D5",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 40.82380952380952,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "70",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 42.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1D6",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 52.82380952380952,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "90",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 54.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1D7",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 117,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 64,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1D8",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 127,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 70,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1D9",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 137,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 76,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1DA",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 147,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 82,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1DB",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 157,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 88,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1DC",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 167,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 94,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1DD",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 177,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 100,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1DE",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 187,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 106,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1DF",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 197,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 112,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1E0",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 207,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 118,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1E1",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 217,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 124,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1E2",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 227,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 130,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1E3",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 237,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 136,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1E4",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 247,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 142,
+				"y": 10,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1E5",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 199,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 112,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1E6",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 252,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 68.34683828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 68.34683828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				},
+				{
+					"x": 74.03433828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 74.03433828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "1E7",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 253,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 76.65933828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 76.65933828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				},
+				{
+					"x": 82.34683828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 82.34683828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "1E8",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 254,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 84.97183828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 84.97183828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				},
+				{
+					"x": 90.65933828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 90.65933828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "1E9",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 255,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 93.28433828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 93.28433828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				},
+				{
+					"x": 98.97183828500644,
+					"y": -11.87787056367432,
+					"z": 0
+				},
+				{
+					"x": 98.97183828500644,
+					"y": -4.565370563674321,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "1EA",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 159,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 88,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1EB",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 85.25939780881596,
+				"y": -3.752870563674321,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "254",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 87.81558828500644,
+				"y": -3.752870563674321,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1EC",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 119,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 64,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1ED",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 129,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 70,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1EE",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 139,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 76,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1EF",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 149,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 82,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1F0",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 68.67630257072072,
+				"y": -3.752870563674321,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "252",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 71.19058828500644,
+				"y": -3.752870563674321,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1F1",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 76.98880257072072,
+				"y": -3.752870563674321,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "253",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 79.50308828500644,
+				"y": -3.752870563674321,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1F2",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 169,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 94,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1F3",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 179,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 100,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1F4",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 189,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 106,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1F5",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 93.81057045447632,
+				"y": -3.663265496610222,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "255",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 96.32485616876204,
+				"y": -3.663265496610222,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1F6",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 239,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 136,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1F7",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 209,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 118,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1F8",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 219,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 124,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1F9",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 229,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 130,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1FA",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 249,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 142,
+				"y": 2,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1FB",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 191,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 112,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1FC",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 193,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 112,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1FD",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 195,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 112,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "1FE",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 111.86,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "190",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 114.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "1FF",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 113,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 64,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "200",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 123,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 70,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "201",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 133,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 76,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "202",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 143,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 82,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "203",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 153,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 88,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "204",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 163,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 94,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "205",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 173,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 100,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "206",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 183,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 106,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "207",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 155,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 88,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "208",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 115,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 64,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "209",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 125,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 70,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "20A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 135,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 76,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "20B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 145,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 82,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "20C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 165,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 94,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "20D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 175,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 100,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "20E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 185,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 106,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "20F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 151,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 88,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "210",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 111,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 64,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "211",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 121,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 70,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "212",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 131,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 76,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "213",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 141,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 82,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "214",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 63.86,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "110",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 66.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "215",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 69.86,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "120",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 72.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "216",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 75.86,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "130",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 78.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "217",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 81.86,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "140",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 84.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "218",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 171,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 100,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "219",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 161,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 94,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "21A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 181,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 106,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "21B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 99.86,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "170",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 102.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "21C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 93.86,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "160",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 96.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "21D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 87.86,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "150",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 90.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "21E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 105.86,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "180",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 108.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "21F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 203,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 118,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "220",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 213,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 124,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "221",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 223,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 130,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "222",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 233,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 136,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "223",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 243,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 142,
+				"y": 26,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "224",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 235,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 136,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "225",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 205,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 118,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "226",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 215,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 124,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "227",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 225,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 130,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "228",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 245,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 142,
+				"y": 18,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "229",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 231,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 136,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "22A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 135.9857142857143,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "230",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 138.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "22B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 211,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 124,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "22C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 201,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 118,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "22D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 221,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 130,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "22E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 123.9857142857143,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "210",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 126.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "22F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 117.9857142857143,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "200",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 120.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "230",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 129.9857142857143,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "220",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 132.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "231",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 241,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 142,
+				"y": 34,
+				"z": 0
+			},
+			"type": "INSERT"
+		},
+		{
+			"handle": "232",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 141.9857142857143,
+				"y": 42.5,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "240",
+			"xScale": 0.8,
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 144.5,
+				"y": 42.5,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "233",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 100,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 58,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "234",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 102,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 58,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "235",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 104,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 58,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "236",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 106,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 58,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "237",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 3,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 55.26701696375537,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 55.26701696375537,
+					"y": 96.68058455114823,
+					"z": 0
+				},
+				{
+					"x": 60.95451696375537,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 60.95451696375537,
+					"y": 96.68058455114823,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "238",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 2,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 46.95451696375537,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 46.95451696375537,
+					"y": 96.68058455114823,
+					"z": 0
+				},
+				{
+					"x": 52.64201696375537,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 52.64201696375537,
+					"y": 96.68058455114823,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "239",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 1,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 38.64201696375537,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 38.64201696375537,
+					"y": 96.68058455114823,
+					"z": 0
+				},
+				{
+					"x": 44.32951696375537,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 44.32951696375537,
+					"y": 96.68058455114823,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "23A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 20,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 10,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "23B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 22,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 10,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "23C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 24,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 10,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "23D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 26,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 10,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "23E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 12,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 4,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "23F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 16,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 4,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "240",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 0.7190476190476185,
+				"y": 73.49994044026162,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "6",
+			"styleName": "Romans",
+			"halign": 2,
+			"endPoint": {
+				"x": 2.5,
+				"y": 73.49994044026162,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "241",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 14,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 4,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "242",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 0.6142857142857139,
+				"y": 65.49994044026162,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "4",
+			"styleName": "Romans",
+			"halign": 2,
+			"endPoint": {
+				"x": 2.5,
+				"y": 65.49994044026162,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "243",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 10,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 4,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "244",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 0.7190476190476187,
+				"y": 49.49994044026162,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "0",
+			"styleName": "Romans",
+			"halign": 2,
+			"endPoint": {
+				"x": 2.5,
+				"y": 49.49994044026162,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "245",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 0.7190476190476185,
+				"y": 57.49994044026162,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "2",
+			"styleName": "Romans",
+			"halign": 2,
+			"endPoint": {
+				"x": 2.5,
+				"y": 57.49994044026162,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "246",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 32,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 16,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "247",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 42,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 22,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "248",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 52,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 28,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "249",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 62,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 34,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "24A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 72,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 40,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "24B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 82,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 46,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "24C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 92,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 52,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "24D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 64,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 34,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "24E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 66,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 34,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "24F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 46,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 22,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "250",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 36,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 16,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "251",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 56,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 28,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "252",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 44,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 22,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "253",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 34,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 16,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "254",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 54,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 28,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "255",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 86,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 46,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "256",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 76,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 40,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "257",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 96,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 52,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "258",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 84,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 46,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "259",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 74,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 40,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "25A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 94,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 52,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "25B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 60,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 34,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "25C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 30,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 16,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "25D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 40,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 22,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "25E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 50,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 28,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "25F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 70,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 40,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "260",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 80,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 46,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "261",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 90,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 52,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "262",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 48.75064791613632,
+				"y": 97.49308455114823,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "2",
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 49.79826696375537,
+				"y": 97.49308455114823,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "263",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 40.59529077327918,
+				"y": 97.49308455114823,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "1",
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 41.48576696375537,
+				"y": 97.49308455114823,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "264",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 57.06314791613633,
+				"y": 97.49308455114823,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "3",
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 58.11076696375537,
+				"y": 97.49308455114823,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "265",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 9,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 105.2438524550469,
+					"y": 89.36634412274448,
+					"z": 0
+				},
+				{
+					"x": 105.2438524550469,
+					"y": 96.67884412274448,
+					"z": 0
+				},
+				{
+					"x": 110.9313524550469,
+					"y": 89.36634412274448,
+					"z": 0
+				},
+				{
+					"x": 110.9313524550469,
+					"y": 96.67884412274448,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "266",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 8,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 96.84444983202528,
+					"y": 89.36634412274448,
+					"z": 0
+				},
+				{
+					"x": 96.84444983202528,
+					"y": 96.67884412274448,
+					"z": 0
+				},
+				{
+					"x": 102.5319498320253,
+					"y": 89.36634412274448,
+					"z": 0
+				},
+				{
+					"x": 102.5319498320253,
+					"y": 96.67884412274448,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "267",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 88.44504720900362,
+					"y": 89.36634412274448,
+					"z": 0
+				},
+				{
+					"x": 88.44504720900362,
+					"y": 96.67884412274448,
+					"z": 0
+				},
+				{
+					"x": 94.13254720900362,
+					"y": 89.36634412274448,
+					"z": 0
+				},
+				{
+					"x": 94.13254720900362,
+					"y": 96.67884412274448,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "268",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 6,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 80.20451696375538,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 80.20451696375538,
+					"y": 96.68058455114823,
+					"z": 0
+				},
+				{
+					"x": 85.89201696375538,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 85.89201696375538,
+					"y": 96.68058455114823,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "269",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 5,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 71.89201696375538,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 71.89201696375538,
+					"y": 96.68058455114823,
+					"z": 0
+				},
+				{
+					"x": 77.57951696375538,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 77.57951696375538,
+					"y": 96.68058455114823,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "26A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 4,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 63.57951696375537,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 63.57951696375537,
+					"y": 96.68058455114823,
+					"z": 0
+				},
+				{
+					"x": 69.26701696375538,
+					"y": 89.36808455114823,
+					"z": 0
+				},
+				{
+					"x": 69.26701696375538,
+					"y": 96.68058455114823,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "26B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 190,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 112,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "26C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 192,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 112,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "26D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 194,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 112,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "26E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 196,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 112,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "26F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 112,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 64,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "270",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 122,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 70,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "271",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 132,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 76,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "272",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 142,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 82,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "273",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 152,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 88,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "274",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 162,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 94,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "275",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 172,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 100,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "276",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 182,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 106,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "277",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 154,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 88,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "278",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 156,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 88,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "279",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 116,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 64,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "27A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 126,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 70,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "27B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 136,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 76,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "27C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 146,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 82,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "27D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 114,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 64,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "27E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 124,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 70,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "27F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 134,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 76,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "280",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 144,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 82,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "281",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 176,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 100,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "282",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 166,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 94,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "283",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 186,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 106,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "284",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 174,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 100,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "285",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 164,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 94,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "286",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 184,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 106,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "287",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 150,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 88,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "288",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 110,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 64,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "289",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 120,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 70,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "28A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 130,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 76,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "28B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 140,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 82,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "28C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 160,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 94,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "28D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 170,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 100,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "28E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 180,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 106,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "28F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 202,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 118,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "290",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 212,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 124,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "291",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 222,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 130,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "292",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 232,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 136,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "293",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 242,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 142,
+				"y": 61.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "294",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 234,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 136,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "295",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 236,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 136,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "296",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 216,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 124,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "297",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 206,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 118,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "298",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 226,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 130,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "299",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 214,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 124,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "29A",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 204,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 118,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "29B",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 224,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 130,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "29C",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 246,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 142,
+				"y": 77.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "29D",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 244,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 142,
+				"y": 69.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "29E",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 230,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 136,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "29F",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 200,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 118,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "2A0",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 210,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 124,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "2A1",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 220,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 130,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "2A2",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 240,
+			"subclassMarker": "AcDbBlockReference",
+			"name": "Color Swatch",
+			"insertionPoint": {
+				"x": 142,
+				"y": 53.69994044026163,
+				"z": 0
+			},
+			"xScale": -1,
+			"rotation": 180,
+			"type": "INSERT"
+		},
+		{
+			"handle": "2A3",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 73.68814791613633,
+				"y": 97.49308455114823,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "5",
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 74.73576696375538,
+				"y": 97.49308455114823,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "2A4",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 65.32326696375537,
+				"y": 97.49308455114823,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "4",
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 66.42326696375537,
+				"y": 97.49308455114823,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "2A5",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 82.14503484751098,
+				"y": 97.58268961821233,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "6",
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 83.24503484751098,
+				"y": 97.58268961821233,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "2A6",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 90.43794604514017,
+				"y": 97.58094918980858,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "7",
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 91.48556509275922,
+				"y": 97.58094918980858,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "2A7",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 98.83734866816182,
+				"y": 97.58094918980858,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "8",
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 99.88496771578087,
+				"y": 97.58094918980858,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "2A8",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Color Table",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 107.2891322435644,
+				"y": 97.58094918980858,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "9",
+			"styleName": "Romans",
+			"halign": 1,
+			"endPoint": {
+				"x": 108.2843703388025,
+				"y": 97.58094918980858,
+				"z": 0
+			},
+			"type": "TEXT"
+		},
+		{
+			"handle": "2A9",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 8,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 294.9235798171214,
+					"y": 5.35001436089911,
+					"z": 0
+				},
+				{
+					"x": 294.9235798171214,
+					"y": 94.97501436089911,
+					"z": 0
+				},
+				{
+					"x": 306.2985798171214,
+					"y": 5.35001436089911,
+					"z": 0
+				},
+				{
+					"x": 306.2985798171214,
+					"y": 94.97501436089911,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "2AA",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 9,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 311.7223850631647,
+					"y": 5.35001436089911,
+					"z": 0
+				},
+				{
+					"x": 311.7223850631647,
+					"y": 94.97501436089911,
+					"z": 0
+				},
+				{
+					"x": 323.0973850631647,
+					"y": 5.35001436089911,
+					"z": 0
+				},
+				{
+					"x": 323.0973850631647,
+					"y": 94.97501436089911,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "2AB",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 278.1247745710781,
+					"y": 5.35001436089911,
+					"z": 0
+				},
+				{
+					"x": 278.1247745710781,
+					"y": 94.97501436089911,
+					"z": 0
+				},
+				{
+					"x": 289.4997745710781,
+					"y": 5.35001436089911,
+					"z": 0
+				},
+				{
+					"x": 289.4997745710781,
+					"y": 94.97501436089911,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "2AC",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 6,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 261.6437140805817,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 261.6437140805817,
+					"y": 94.97849521770661,
+					"z": 0
+				},
+				{
+					"x": 273.0187140805817,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 273.0187140805817,
+					"y": 94.97849521770661,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "2AD",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 4,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 228.3937140805816,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 228.3937140805816,
+					"y": 94.97849521770661,
+					"z": 0
+				},
+				{
+					"x": 239.7687140805817,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 239.7687140805817,
+					"y": 94.97849521770661,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "2AE",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 3,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 211.7687140805816,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 211.7687140805816,
+					"y": 94.97849521770661,
+					"z": 0
+				},
+				{
+					"x": 223.1437140805816,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 223.1437140805816,
+					"y": 94.97849521770661,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "2AF",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 1,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 178.5187140805816,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 178.5187140805816,
+					"y": 94.97849521770661,
+					"z": 0
+				},
+				{
+					"x": 189.8937140805816,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 189.8937140805816,
+					"y": 94.97849521770661,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "2B0",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 2,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 195.1437140805816,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 195.1437140805816,
+					"y": 94.97849521770661,
+					"z": 0
+				},
+				{
+					"x": 206.5187140805816,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 206.5187140805816,
+					"y": 94.97849521770661,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "2B1",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 5,
+			"subclassMarker": "AcDbTrace",
+			"points": [
+				{
+					"x": 245.0187140805817,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 245.0187140805817,
+					"y": 94.97849521770661,
+					"z": 0
+				},
+				{
+					"x": 256.3937140805817,
+					"y": 5.353495217706609,
+					"z": 0
+				},
+				{
+					"x": 256.3937140805817,
+					"y": 94.97849521770661,
+					"z": 0
+				}
+			],
+			"type": "SOLID"
+		},
+		{
+			"handle": "2B2",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 267.7247498480928,
+				"y": 96.7827053518348,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "Slant Left",
+			"rotation": 45.00000000000002,
+			"styleName": "Romans",
+			"type": "TEXT"
+		},
+		{
+			"handle": "2B3",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 217.4562140805816,
+				"y": 96.60349521770661,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "Crosshatch",
+			"rotation": 45.00000000000002,
+			"styleName": "Romans",
+			"type": "TEXT"
+		},
+		{
+			"handle": "2B4",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 200.8312140805816,
+				"y": 96.60349521770661,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "Checkerboard",
+			"rotation": 45.00000000000002,
+			"styleName": "Romans",
+			"type": "TEXT"
+		},
+		{
+			"handle": "2B5",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 184.2062140805816,
+				"y": 96.60349521770661,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "Solid",
+			"rotation": 45.00000000000002,
+			"styleName": "Romans",
+			"type": "TEXT"
+		},
+		{
+			"handle": "2B6",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 250.7062140805817,
+				"y": 96.60349521770661,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "Horizontal Bars",
+			"rotation": 45.00000000000002,
+			"styleName": "Romans",
+			"type": "TEXT"
+		},
+		{
+			"handle": "2B7",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 234.0812140805816,
+				"y": 96.60349521770661,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "Diamonds",
+			"rotation": 45.00000000000002,
+			"styleName": "Romans",
+			"type": "TEXT"
+		},
+		{
+			"handle": "2B8",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 317.803420830676,
+				"y": 96.77922449502731,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "Vertical Bars",
+			"rotation": 45.00000000000002,
+			"styleName": "Romans",
+			"type": "TEXT"
+		},
+		{
+			"handle": "2B9",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 301.0046155846326,
+				"y": 96.77922449502731,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "Square Dots",
+			"rotation": 45.00000000000002,
+			"styleName": "Romans",
+			"type": "TEXT"
+		},
+		{
+			"handle": "2BA",
+			"ownerBlockRecordSoftId": "1F",
+			"layer": "Fill Patterns",
+			"colorIndex": 7,
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 284.2058103385893,
+				"y": 96.77922449502731,
+				"z": 0
+			},
+			"textHeight": 2.2,
+			"text": "Slant Right",
+			"rotation": 45.00000000000002,
+			"styleName": "Romans",
+			"type": "TEXT"
+		},
+		{
+			"handle": "2CF",
+			"extensions": {
+				"ACAD_XDICTIONARY": [
+					{
+						"code": 360,
+						"value": "734"
+					}
+				]
+			},
+			"ownerBlockRecordSoftId": "2CE",
+			"isInPaperSpace": true,
+			"layer": "0",
+			"subclassMarker": "AcDbViewport",
+			"viewportCenter": {
+				"x": 5.248031131864532,
+				"y": 4.039592624361128,
+				"z": 0
+			},
+			"width": 11.4809887150972,
+			"height": 8.606249756700409,
+			"status": 1,
+			"viewportId": 1,
+			"displayCenter": {
+				"x": 5.248031131864532,
+				"y": 4.039592624361128
+			},
+			"snapBase": {
+				"x": 0,
+				"y": 0
+			},
+			"snapSpacing": {
+				"x": 0.5,
+				"y": 0.5
+			},
+			"gridSpacing": {
+				"x": 0.5,
+				"y": 0.5
+			},
+			"viewDirection": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"targetPoint": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"perspectiveLensLength": 50,
+			"frontClipZ": 0,
+			"backClipZ": 0,
+			"viewHeight": 8.606249756700409,
+			"snapAngle": 0,
+			"viewTwistAngle": 0,
+			"circleZoomPercent": 1000,
+			"statusBitFlags": 32864,
+			"sheetName": "",
+			"renderMode": 0,
+			"ucsPerViewport": 1,
+			"iconFlag": 0,
+			"ucsOrigin": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"ucsXAxis": {
+				"x": 1,
+				"y": 0,
+				"z": 0
+			},
+			"ucsYAxis": {
+				"x": 0,
+				"y": 1,
+				"z": 0
+			},
+			"orthographicType": 0,
+			"elevation": 0,
+			"shadePlotMode": 0,
+			"type": "VIEWPORT"
+		},
+		{
+			"handle": "2D0",
+			"extensions": {
+				"ACAD_XDICTIONARY": [
+					{
+						"code": 360,
+						"value": "736"
+					}
+				]
+			},
+			"ownerBlockRecordSoftId": "2CE",
+			"isInPaperSpace": true,
+			"layer": "Viewports",
+			"subclassMarker": "AcDbViewport",
+			"viewportCenter": {
+				"x": 5.248031375915047,
+				"y": 3.748031375915047,
+				"z": 0
+			},
+			"width": 8.396850201464074,
+			"height": 5.896850201464074,
+			"status": 2,
+			"viewportId": 2,
+			"displayCenter": {
+				"x": 73.85000006455826,
+				"y": 44.59349331670012
+			},
+			"snapBase": {
+				"x": 0,
+				"y": 0
+			},
+			"snapSpacing": {
+				"x": 0.25,
+				"y": 0.25
+			},
+			"gridSpacing": {
+				"x": 0,
+				"y": 0
+			},
+			"viewDirection": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"targetPoint": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"perspectiveLensLength": 50,
+			"frontClipZ": 0,
+			"backClipZ": 0,
+			"viewHeight": 117.937004096934,
+			"snapAngle": 0,
+			"viewTwistAngle": 0,
+			"circleZoomPercent": 100,
+			"frozenLayerIds": ["30"],
+			"statusBitFlags": 49184,
+			"sheetName": "",
+			"renderMode": 0,
+			"ucsPerViewport": 1,
+			"iconFlag": 0,
+			"ucsOrigin": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"ucsXAxis": {
+				"x": 1,
+				"y": 0,
+				"z": 0
+			},
+			"ucsYAxis": {
+				"x": 0,
+				"y": 1,
+				"z": 0
+			},
+			"orthographicType": 0,
+			"elevation": 0,
+			"shadePlotMode": 0,
+			"type": "VIEWPORT"
+		},
+		{
+			"handle": "2D1",
+			"ownerBlockRecordSoftId": "2CE",
+			"isInPaperSpace": true,
+			"layer": "0",
+			"subclassMarker": "AcDbText",
+			"startPoint": {
+				"x": 2.914191678407331,
+				"y": 6.744073315641625,
+				"z": 0
+			},
+			"textHeight": 0.4,
+			"text": "Screening - 100%",
+			"styleName": "Swiss Bold",
+			"halign": 1,
+			"endPoint": {
+				"x": 5.216703558923285,
+				"y": 6.744073315641625,
+				"z": 0
+			},
+			"type": "TEXT"
+		}
+	],
+	"tables": {
+		"VPORT": {
+			"entries": [
+				{
+					"handle": "67D",
+					"ownerObjectId": "8",
+					"subclassMarker": "AcDbViewportTableRecord",
+					"name": "*Active",
+					"standardFlag": 0,
+					"lowerLeftCorner": {
+						"x": 0,
+						"y": 0
+					},
+					"upperRightCorner": {
+						"x": 1,
+						"y": 1
+					},
+					"center": {
+						"x": 178.3157661719854,
+						"y": 55.0666948361354
+					},
+					"snapBasePoint": {
+						"x": 0,
+						"y": 0
+					},
+					"snapSpacing": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"gridSpacing": {
+						"x": 10,
+						"y": 10
+					},
+					"viewDirectionFromTarget": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"viewTarget": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					}
+				}
+			],
+			"name": "VPORT",
+			"handle": "8",
+			"ownerObjectId": "0",
+			"subclassMarker": "AcDbSymbolTable",
+			"maxNumberOfEntries": 1
+		},
+		"LTYPE": {
+			"entries": [
+				{
+					"handle": "14",
+					"ownerObjectId": "5",
+					"subclassMarker": "AcDbLinetypeTableRecord",
+					"name": "ByBlock",
+					"standardFlag": 0,
+					"description": "",
+					"numberOfLineTypes": 0,
+					"totalPatternLength": 0
+				},
+				{
+					"handle": "15",
+					"ownerObjectId": "5",
+					"subclassMarker": "AcDbLinetypeTableRecord",
+					"name": "ByLayer",
+					"standardFlag": 0,
+					"description": "",
+					"numberOfLineTypes": 0,
+					"totalPatternLength": 0
+				},
+				{
+					"handle": "16",
+					"ownerObjectId": "5",
+					"subclassMarker": "AcDbLinetypeTableRecord",
+					"name": "Continuous",
+					"standardFlag": 0,
+					"description": "Solid line",
+					"numberOfLineTypes": 0,
+					"totalPatternLength": 0
+				}
+			],
+			"name": "LTYPE",
+			"handle": "5",
+			"ownerObjectId": "0",
+			"subclassMarker": "AcDbSymbolTable",
+			"maxNumberOfEntries": 1
+		},
+		"LAYER": {
+			"entries": [
+				{
+					"handle": "10",
+					"ownerObjectId": "2",
+					"subclassMarker": "AcDbLayerTableRecord",
+					"name": "0",
+					"standardFlag": 0,
+					"colorIndex": 7,
+					"lineType": "Continuous",
+					"lineweight": -3,
+					"plotStyleNameObjectId": "F"
+				},
+				{
+					"handle": "2F",
+					"ownerObjectId": "2",
+					"subclassMarker": "AcDbLayerTableRecord",
+					"name": "Color Table",
+					"standardFlag": 0,
+					"colorIndex": 7,
+					"lineType": "Continuous",
+					"lineweight": -3,
+					"plotStyleNameObjectId": "F"
+				},
+				{
+					"handle": "30",
+					"ownerObjectId": "2",
+					"subclassMarker": "AcDbLayerTableRecord",
+					"name": "Fill Patterns",
+					"standardFlag": 0,
+					"colorIndex": 7,
+					"lineType": "Continuous",
+					"lineweight": -3,
+					"plotStyleNameObjectId": "F"
+				},
+				{
+					"handle": "2BB",
+					"ownerObjectId": "2",
+					"subclassMarker": "AcDbLayerTableRecord",
+					"name": "Viewports",
+					"standardFlag": 0,
+					"colorIndex": -7,
+					"lineType": "Continuous",
+					"isPlotting": false,
+					"lineweight": -3,
+					"plotStyleNameObjectId": "F"
+				}
+			],
+			"name": "LAYER",
+			"handle": "2",
+			"ownerObjectId": "0",
+			"subclassMarker": "AcDbSymbolTable",
+			"maxNumberOfEntries": 4
+		},
+		"STYLE": {
+			"entries": [
+				{
+					"handle": "11",
+					"ownerObjectId": "3",
+					"subclassMarker": "AcDbTextStyleTableRecord",
+					"name": "Standard",
+					"standardFlag": 0,
+					"fixedTextHeight": 0,
+					"widthFactor": 1,
+					"obliqueAngle": 0,
+					"textGenerationFlag": 0,
+					"lastHeight": 0.2,
+					"font": "txt",
+					"bigFont": ""
+				},
+				{
+					"handle": "31",
+					"ownerObjectId": "3",
+					"subclassMarker": "AcDbTextStyleTableRecord",
+					"name": "Romans",
+					"standardFlag": 0,
+					"fixedTextHeight": 0,
+					"widthFactor": 1,
+					"obliqueAngle": 0,
+					"textGenerationFlag": 0,
+					"lastHeight": 0.5,
+					"font": "romans.shx",
+					"bigFont": ""
+				},
+				{
+					"handle": "2BC",
+					"ownerObjectId": "3",
+					"subclassMarker": "AcDbTextStyleTableRecord",
+					"name": "Swiss Bold",
+					"standardFlag": 0,
+					"fixedTextHeight": 0,
+					"widthFactor": 1,
+					"obliqueAngle": 0,
+					"textGenerationFlag": 0,
+					"lastHeight": 0.2,
+					"font": "swissb.ttf",
+					"bigFont": "",
+					"extendedFont": "Swis721 BT"
+				}
+			],
+			"name": "STYLE",
+			"handle": "3",
+			"ownerObjectId": "0",
+			"subclassMarker": "AcDbSymbolTable",
+			"maxNumberOfEntries": 3
+		},
+		"VIEW": {
+			"entries": [],
+			"name": "VIEW",
+			"handle": "6",
+			"ownerObjectId": "0",
+			"subclassMarker": "AcDbSymbolTable",
+			"maxNumberOfEntries": 0
+		},
+		"UCS": {
+			"entries": [],
+			"name": "UCS",
+			"handle": "7",
+			"ownerObjectId": "0",
+			"subclassMarker": "AcDbSymbolTable",
+			"maxNumberOfEntries": 0
+		},
+		"APPID": {
+			"entries": [],
+			"name": "APPID",
+			"handle": "9",
+			"ownerObjectId": "0",
+			"subclassMarker": "AcDbSymbolTable",
+			"maxNumberOfEntries": 4
+		},
+		"DIMSTYLE": {
+			"entries": [
+				{
+					"handle": "27",
+					"ownerObjectId": "A",
+					"subclassMarker": "AcDbDimStyleTableRecord",
+					"name": "Standard",
+					"standardFlag": 0,
+					"DIMCLRT": 0,
+					"DIMTXSTY": "11"
+				}
+			],
+			"name": "DIMSTYLE",
+			"handle": "A",
+			"ownerObjectId": "0",
+			"subclassMarker": "AcDbSymbolTable",
+			"maxNumberOfEntries": 1
+		},
+		"BLOCK_RECORD": {
+			"entries": [
+				{
+					"handle": "1F",
+					"ownerObjectId": "1",
+					"subclassMarker": "AcDbBlockTableRecord",
+					"name": "*Model_Space",
+					"layoutObjects": "22"
+				},
+				{
+					"handle": "2CE",
+					"ownerObjectId": "1",
+					"subclassMarker": "AcDbBlockTableRecord",
+					"name": "*Paper_Space",
+					"layoutObjects": "2CD"
+				},
+				{
+					"handle": "2B",
+					"ownerObjectId": "1",
+					"subclassMarker": "AcDbBlockTableRecord",
+					"name": "Color Swatch",
+					"layoutObjects": "0",
+					"bmpPreview": "2800000020000000200000000100080000000000000400000000000000000000000000000000000000000000000080000080000000808000800000008000800080800000C0C0C000C0DCC000F0CAA6000020400000206000002080000020A0000020C0000020E00000400000004020000040400000406000004080000040A0"
+				},
+				{
+					"handle": "2BE",
+					"ownerObjectId": "1",
+					"subclassMarker": "AcDbBlockTableRecord",
+					"name": "*Paper_Space1",
+					"layoutObjects": "2BD"
+				},
+				{
+					"handle": "2DC",
+					"ownerObjectId": "1",
+					"subclassMarker": "AcDbBlockTableRecord",
+					"name": "*Paper_Space2",
+					"layoutObjects": "2DB"
+				},
+				{
+					"handle": "2D5",
+					"ownerObjectId": "1",
+					"subclassMarker": "AcDbBlockTableRecord",
+					"name": "*Paper_Space3",
+					"layoutObjects": "2D4"
+				},
+				{
+					"handle": "2C6",
+					"ownerObjectId": "1",
+					"subclassMarker": "AcDbBlockTableRecord",
+					"name": "*Paper_Space4",
+					"layoutObjects": "2C5"
+				},
+				{
+					"handle": "2E3",
+					"ownerObjectId": "1",
+					"subclassMarker": "AcDbBlockTableRecord",
+					"name": "*Paper_Space5",
+					"layoutObjects": "2E2"
+				}
+			],
+			"name": "BLOCK_RECORD",
+			"handle": "1",
+			"ownerObjectId": "0",
+			"subclassMarker": "AcDbSymbolTable",
+			"maxNumberOfEntries": 6
+		}
+	},
+	"objects": {
+		"byName": {
+			"DICTIONARY": [
+				{
+					"name": "DICTIONARY",
+					"handle": "C",
+					"ownerObjectId": "0",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_COLOR",
+							"objectSoftId": "36E"
+						},
+						{
+							"name": "ACAD_DETAILVIEWSTYLE",
+							"objectSoftId": "7A8"
+						},
+						{
+							"name": "ACAD_GROUP",
+							"objectSoftId": "D"
+						},
+						{
+							"name": "ACAD_LAYOUT",
+							"objectSoftId": "1A"
+						},
+						{
+							"name": "ACAD_MATERIAL",
+							"objectSoftId": "36D"
+						},
+						{
+							"name": "ACAD_MLEADERSTYLE",
+							"objectSoftId": "732"
+						},
+						{
+							"name": "ACAD_MLINESTYLE",
+							"objectSoftId": "17"
+						},
+						{
+							"name": "ACAD_PLOTSETTINGS",
+							"objectSoftId": "19"
+						},
+						{
+							"name": "ACAD_PLOTSTYLENAME",
+							"objectSoftId": "E"
+						},
+						{
+							"name": "ACAD_SCALELIST",
+							"objectSoftId": "716"
+						},
+						{
+							"name": "ACAD_SECTIONVIEWSTYLE",
+							"objectSoftId": "7A9"
+						},
+						{
+							"name": "ACAD_TABLESTYLE",
+							"objectSoftId": "394"
+						},
+						{
+							"name": "ACAD_VISUALSTYLE",
+							"objectSoftId": "6B8"
+						},
+						{
+							"name": "ACDB_RECOMPOSE_DATA",
+							"objectSoftId": "79B"
+						},
+						{
+							"name": "AcDbVariableDictionary",
+							"objectSoftId": "3A0"
+						},
+						{
+							"name": "AcDsDecomposeData",
+							"objectSoftId": "79C"
+						},
+						{
+							"name": "ASE_INDEX_DICTIONARY",
+							"objectSoftId": "67E"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "74C",
+					"ownerObjectId": "8",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "74D"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "3AE",
+					"ownerObjectId": "2",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_LAYERSTATES",
+							"objectHardId": "3AF"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "738",
+					"ownerObjectId": "2BF",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "739"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "73A",
+					"ownerObjectId": "2C0",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "73B"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "73C",
+					"ownerObjectId": "2DD",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "73D"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "73E",
+					"ownerObjectId": "2DE",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "73F"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "740",
+					"ownerObjectId": "2D6",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "741"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "742",
+					"ownerObjectId": "2D7",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "743"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "744",
+					"ownerObjectId": "2C7",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "745"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "746",
+					"ownerObjectId": "2C8",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "747"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "748",
+					"ownerObjectId": "2E4",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "749"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "74A",
+					"ownerObjectId": "2E5",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "74B"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "734",
+					"ownerObjectId": "2CF",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "735"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "736",
+					"ownerObjectId": "2D0",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "737"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "36E",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "7A8",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "D",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "1A",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "Fill Patterns",
+							"objectSoftId": "2BD"
+						},
+						{
+							"name": "Grayscales",
+							"objectSoftId": "2C5"
+						},
+						{
+							"name": "Model",
+							"objectSoftId": "22"
+						},
+						{
+							"name": "Screening 100%",
+							"objectSoftId": "2CD"
+						},
+						{
+							"name": "Screening 25%",
+							"objectSoftId": "2D4"
+						},
+						{
+							"name": "Screening 50%",
+							"objectSoftId": "2DB"
+						},
+						{
+							"name": "Screening 75%",
+							"objectSoftId": "2E2"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "36D",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ByBlock",
+							"objectSoftId": "6B6"
+						},
+						{
+							"name": "ByLayer",
+							"objectSoftId": "6B5"
+						},
+						{
+							"name": "Global",
+							"objectSoftId": "6B7"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "732",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "Standard",
+							"objectSoftId": "733"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "17",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "Standard",
+							"objectSoftId": "18"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "19",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "716",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "A0",
+							"objectSoftId": "717"
+						},
+						{
+							"name": "A1",
+							"objectSoftId": "718"
+						},
+						{
+							"name": "A2",
+							"objectSoftId": "719"
+						},
+						{
+							"name": "A3",
+							"objectSoftId": "71A"
+						},
+						{
+							"name": "A4",
+							"objectSoftId": "71B"
+						},
+						{
+							"name": "A5",
+							"objectSoftId": "71C"
+						},
+						{
+							"name": "A6",
+							"objectSoftId": "71D"
+						},
+						{
+							"name": "A7",
+							"objectSoftId": "71E"
+						},
+						{
+							"name": "A8",
+							"objectSoftId": "71F"
+						},
+						{
+							"name": "A9",
+							"objectSoftId": "720"
+						},
+						{
+							"name": "B1",
+							"objectSoftId": "721"
+						},
+						{
+							"name": "B2",
+							"objectSoftId": "722"
+						},
+						{
+							"name": "B3",
+							"objectSoftId": "723"
+						},
+						{
+							"name": "B4",
+							"objectSoftId": "724"
+						},
+						{
+							"name": "B5",
+							"objectSoftId": "725"
+						},
+						{
+							"name": "B6",
+							"objectSoftId": "726"
+						},
+						{
+							"name": "B7",
+							"objectSoftId": "727"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "7A9",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "394",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "Standard",
+							"objectSoftId": "395"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "6B8",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "2dWireframe",
+							"objectSoftId": "6BE"
+						},
+						{
+							"name": "3D Hidden",
+							"objectSoftId": "6C0"
+						},
+						{
+							"name": "3dWireframe",
+							"objectSoftId": "6BF"
+						},
+						{
+							"name": "Basic",
+							"objectSoftId": "6BD"
+						},
+						{
+							"name": "Brighten",
+							"objectSoftId": "6C4"
+						},
+						{
+							"name": "ColorChange",
+							"objectSoftId": "6C8"
+						},
+						{
+							"name": "Conceptual",
+							"objectSoftId": "6C1"
+						},
+						{
+							"name": "Dim",
+							"objectSoftId": "6C3"
+						},
+						{
+							"name": "EdgeColorOff",
+							"objectSoftId": "72C"
+						},
+						{
+							"name": "Facepattern",
+							"objectSoftId": "6C7"
+						},
+						{
+							"name": "Flat",
+							"objectSoftId": "6B9"
+						},
+						{
+							"name": "FlatWithEdges",
+							"objectSoftId": "6BA"
+						},
+						{
+							"name": "Gouraud",
+							"objectSoftId": "6BB"
+						},
+						{
+							"name": "GouraudWithEdges",
+							"objectSoftId": "6BC"
+						},
+						{
+							"name": "Hidden",
+							"objectSoftId": "729"
+						},
+						{
+							"name": "JitterOff",
+							"objectSoftId": "72A"
+						},
+						{
+							"name": "Linepattern",
+							"objectSoftId": "6C6"
+						},
+						{
+							"name": "OverhangOff",
+							"objectSoftId": "72B"
+						},
+						{
+							"name": "Realistic",
+							"objectSoftId": "6C2"
+						},
+						{
+							"name": "Shaded",
+							"objectSoftId": "731"
+						},
+						{
+							"name": "Shaded with edges",
+							"objectSoftId": "730"
+						},
+						{
+							"name": "Shades of Gray",
+							"objectSoftId": "72D"
+						},
+						{
+							"name": "Sketchy",
+							"objectSoftId": "72E"
+						},
+						{
+							"name": "Thicken",
+							"objectSoftId": "6C5"
+						},
+						{
+							"name": "Wireframe",
+							"objectSoftId": "728"
+						},
+						{
+							"name": "X-Ray",
+							"objectSoftId": "72F"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "3A0",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "CANNOSCALE",
+							"objectSoftId": "74E"
+						},
+						{
+							"name": "CMLEADERSTYLE",
+							"objectSoftId": "7A5"
+						},
+						{
+							"name": "CTABLESTYLE",
+							"objectSoftId": "3A1"
+						},
+						{
+							"name": "MSLTSCALE",
+							"objectSoftId": "7A6"
+						},
+						{
+							"name": "XCLIPFRAME",
+							"objectSoftId": "7A7"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "79C",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "AcDsRecords",
+							"objectSoftId": "79D"
+						},
+						{
+							"name": "AcDsSchemas",
+							"objectSoftId": "79E"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "67E",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "C"
+							}
+						]
+					},
+					"ownerObjectId": "C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ASEBlockHierarchyIndexRecord",
+							"objectSoftId": "67F"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "3AF",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "3AE"
+							}
+						]
+					},
+					"ownerObjectId": "3AE",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "79D",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "79C"
+							}
+						]
+					},
+					"ownerObjectId": "79C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "79E",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "79C"
+							}
+						]
+					},
+					"ownerObjectId": "79C",
+					"subclassMarker": "AcDbDictionary",
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "8796076365880",
+							"objectSoftId": "79F"
+						},
+						{
+							"name": "8796076365896",
+							"objectSoftId": "7A0"
+						},
+						{
+							"name": "8796076365912",
+							"objectSoftId": "7A1"
+						},
+						{
+							"name": "8796076365928",
+							"objectSoftId": "7A2"
+						},
+						{
+							"name": "8796076365944",
+							"objectSoftId": "7A3"
+						},
+						{
+							"name": "8796076365960",
+							"objectSoftId": "7A4"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "74F",
+					"ownerObjectId": "2BD",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ADSK_XREC_LAYOUTTHUMBNAIL",
+							"objectHardId": "750"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "751",
+					"ownerObjectId": "2C5",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ADSK_XREC_LAYOUTTHUMBNAIL",
+							"objectHardId": "752"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "753",
+					"ownerObjectId": "2CD",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ADSK_XREC_LAYOUTTHUMBNAIL",
+							"objectHardId": "754"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "755",
+					"ownerObjectId": "2D4",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ADSK_XREC_LAYOUTTHUMBNAIL",
+							"objectHardId": "756"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "757",
+					"ownerObjectId": "2DB",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ADSK_XREC_LAYOUTTHUMBNAIL",
+							"objectHardId": "758"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "759",
+					"ownerObjectId": "2E2",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ADSK_XREC_LAYOUTTHUMBNAIL",
+							"objectHardId": "75A"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "75B",
+					"ownerObjectId": "6B6",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "75C"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "75D",
+					"ownerObjectId": "6B5",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "75E"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "75F",
+					"ownerObjectId": "6B7",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "760"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "799",
+					"ownerObjectId": "733",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "79A"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "761",
+					"ownerObjectId": "395",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_ROUNDTRIP_2008_TABLESTYLE_CELLSTYLEMAP",
+							"objectHardId": "763"
+						},
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "762"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "764",
+					"ownerObjectId": "6BE",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "765"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "766",
+					"ownerObjectId": "6C0",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "767"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "768",
+					"ownerObjectId": "6BF",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "769"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "76A",
+					"ownerObjectId": "6BD",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "76B"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "76C",
+					"ownerObjectId": "6C4",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "76D"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "76E",
+					"ownerObjectId": "6C8",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "76F"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "770",
+					"ownerObjectId": "6C1",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "771"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "772",
+					"ownerObjectId": "6C3",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "773"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "78C",
+					"ownerObjectId": "72C",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "78D"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "774",
+					"ownerObjectId": "6C7",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "775"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "776",
+					"ownerObjectId": "6B9",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "777"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "778",
+					"ownerObjectId": "6BA",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "779"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "77A",
+					"ownerObjectId": "6BB",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "77B"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "77C",
+					"ownerObjectId": "6BC",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "77D"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "786",
+					"ownerObjectId": "729",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "787"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "788",
+					"ownerObjectId": "72A",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "789"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "77E",
+					"ownerObjectId": "6C6",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "77F"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "78A",
+					"ownerObjectId": "72B",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "78B"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "780",
+					"ownerObjectId": "6C2",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "781"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "796",
+					"ownerObjectId": "731",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "797"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "794",
+					"ownerObjectId": "730",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "795"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "78E",
+					"ownerObjectId": "72D",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "78F"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "790",
+					"ownerObjectId": "72E",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "791"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "782",
+					"ownerObjectId": "6C5",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "783"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "784",
+					"ownerObjectId": "728",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "785"
+						}
+					]
+				},
+				{
+					"name": "DICTIONARY",
+					"handle": "792",
+					"ownerObjectId": "72F",
+					"subclassMarker": "AcDbDictionary",
+					"isHardOwned": true,
+					"recordCloneFlag": 1,
+					"entries": [
+						{
+							"name": "ACAD_XREC_ROUNDTRIP",
+							"objectHardId": "793"
+						}
+					]
+				}
+			],
+			"LAYOUT": [
+				{
+					"name": "LAYOUT",
+					"handle": "2BD",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "1A"
+							}
+						],
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "74F"
+							}
+						]
+					},
+					"ownerObjectId": "1A",
+					"subclassMarker": "AcDbLayout",
+					"pageSetupName": "",
+					"configName": "DWF6 ePlot.pc3",
+					"paperSize": "ANSI_expand_A_(8.50_x_11.00_Inches)",
+					"plotViewName": "",
+					"marginLeft": 5.793749809265137,
+					"marginBottom": 10.79374980926514,
+					"marginRight": 5.793746948242188,
+					"marginTop": 10.79376220703125,
+					"paperWidth": 215.8999938964844,
+					"paperHeight": 279.3999938964844,
+					"plotOriginX": 19.85458848095538,
+					"plotOriginY": 22.31294344145189,
+					"windowAreaXMin": 0,
+					"windowAreaYMin": 0,
+					"windowAreaXMax": 0,
+					"windowAreaYMax": 0,
+					"printScaleNumerator": 1,
+					"printScaleDenominator": 1,
+					"layoutFlag": 694,
+					"plotPaperUnit": 0,
+					"plotRotation": 1,
+					"plotType": 1,
+					"currentStyleSheet": "Fill Patterns.ctb",
+					"standardScaleType": 16,
+					"shadePlotMode": 0,
+					"shadePlotResolution": 2,
+					"shadePlotCustomDPI": 300,
+					"scaleFactor": 1,
+					"imageOriginX": -26.64019060371686,
+					"imageOriginY": -20.30756736977651,
+					"layoutName": "Fill Patterns",
+					"controlFlag": 1,
+					"tabOrder": 1,
+					"minLimit": {
+						"x": -0.2545872064868611,
+						"y": -0.2102665716710236
+					},
+					"maxLimit": {
+						"x": 10.74541255321725,
+						"y": 8.289733188033084
+					},
+					"insertionPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"minExtent": {
+						"x": 1.04960627518301,
+						"y": 0.7996062751830095,
+						"z": 0
+					},
+					"maxExtent": {
+						"x": 9.441937892965765,
+						"y": 7.279579086177946,
+						"z": 0
+					},
+					"elevation": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"paperSpaceTableId": "2BE",
+					"viewportId": "2C0"
+				},
+				{
+					"name": "LAYOUT",
+					"handle": "2C5",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "1A"
+							}
+						],
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "751"
+							}
+						]
+					},
+					"ownerObjectId": "1A",
+					"subclassMarker": "AcDbLayout",
+					"pageSetupName": "",
+					"configName": "DWF6 ePlot.pc3",
+					"paperSize": "ANSI_expand_A_(8.50_x_11.00_Inches)",
+					"plotViewName": "",
+					"marginLeft": 5.793749809265137,
+					"marginBottom": 10.79374980926514,
+					"marginRight": 5.793746948242188,
+					"marginTop": 10.79376220703125,
+					"paperWidth": 215.8999938964844,
+					"paperHeight": 279.3999938964844,
+					"plotOriginX": 19.86059386985283,
+					"plotOriginY": 22.26624338150025,
+					"windowAreaXMin": 0,
+					"windowAreaYMin": 0,
+					"windowAreaXMax": 0,
+					"windowAreaYMax": 0,
+					"printScaleNumerator": 1,
+					"printScaleDenominator": 1,
+					"layoutFlag": 694,
+					"plotPaperUnit": 0,
+					"plotRotation": 1,
+					"plotType": 1,
+					"currentStyleSheet": "Grayscale.ctb",
+					"standardScaleType": 16,
+					"shadePlotMode": 0,
+					"shadePlotResolution": 2,
+					"shadePlotCustomDPI": 300,
+					"scaleFactor": 1,
+					"imageOriginX": -26.65999938964844,
+					"imageOriginY": -20.30999938964844,
+					"layoutName": "Grayscales",
+					"controlFlag": 1,
+					"tabOrder": 2,
+					"minLimit": {
+						"x": -0.2519687479875221,
+						"y": -0.2104072554909262
+					},
+					"maxLimit": {
+						"x": 10.74803101171659,
+						"y": 8.289592504213182
+					},
+					"insertionPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"minExtent": {
+						"x": 1.04960627518301,
+						"y": 0.7996062751830095,
+						"z": 0
+					},
+					"maxExtent": {
+						"x": 9.446456476647084,
+						"y": 7.279579086177946,
+						"z": 0
+					},
+					"elevation": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"paperSpaceTableId": "2C6",
+					"viewportId": "2C7"
+				},
+				{
+					"name": "LAYOUT",
+					"handle": "22",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "1A"
+							}
+						]
+					},
+					"ownerObjectId": "1A",
+					"subclassMarker": "AcDbLayout",
+					"pageSetupName": "",
+					"configName": "DWF6 ePlot.pc3",
+					"paperSize": "ANSI_expand_A_(8.50_x_11.00_Inches)",
+					"plotViewName": "",
+					"marginLeft": 5.793749809265137,
+					"marginBottom": 10.79374980926514,
+					"marginRight": 5.793746948242188,
+					"marginTop": 10.79376220703125,
+					"paperWidth": 215.8999938964844,
+					"paperHeight": 279.3999938964844,
+					"plotOriginX": 52.62339469973215,
+					"plotOriginY": 0,
+					"windowAreaXMin": 0,
+					"windowAreaYMin": 0,
+					"windowAreaXMax": 0,
+					"windowAreaYMax": 0,
+					"printScaleNumerator": 1,
+					"printScaleDenominator": 32.67980224738449,
+					"layoutFlag": 11952,
+					"plotPaperUnit": 0,
+					"plotRotation": 1,
+					"plotType": 1,
+					"currentStyleSheet": "",
+					"standardScaleType": 0,
+					"shadePlotMode": 0,
+					"shadePlotResolution": 2,
+					"shadePlotCustomDPI": 300,
+					"scaleFactor": 0.0305999403677553,
+					"imageOriginX": -23.46758054041736,
+					"imageOriginY": 301.8362193410702,
+					"layoutName": "Model",
+					"controlFlag": 1,
+					"tabOrder": 0,
+					"minLimit": {
+						"x": 0,
+						"y": 0
+					},
+					"maxLimit": {
+						"x": 12,
+						"y": 9
+					},
+					"insertionPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"minExtent": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"maxExtent": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"elevation": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"paperSpaceTableId": "1F",
+					"viewportId": "67D"
+				},
+				{
+					"name": "LAYOUT",
+					"handle": "2CD",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "1A"
+							}
+						],
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "753"
+							}
+						]
+					},
+					"ownerObjectId": "1A",
+					"subclassMarker": "AcDbLayout",
+					"pageSetupName": "",
+					"configName": "DWF6 ePlot.pc3",
+					"paperSize": "ANSI_expand_A_(8.50_x_11.00_Inches)",
+					"plotViewName": "",
+					"marginLeft": 5.793749809265137,
+					"marginBottom": 10.79374980926514,
+					"marginRight": 5.793746948242188,
+					"marginTop": 10.79376220703125,
+					"paperWidth": 215.8999938964844,
+					"paperHeight": 279.3999938964844,
+					"plotOriginX": 19.86059386985283,
+					"plotOriginY": 22.26624338150025,
+					"windowAreaXMin": 0,
+					"windowAreaYMin": 0,
+					"windowAreaXMax": 0,
+					"windowAreaYMax": 0,
+					"printScaleNumerator": 1,
+					"printScaleDenominator": 1,
+					"layoutFlag": 694,
+					"plotPaperUnit": 0,
+					"plotRotation": 1,
+					"plotType": 1,
+					"currentStyleSheet": "Screening 100%.ctb",
+					"standardScaleType": 16,
+					"shadePlotMode": 0,
+					"shadePlotResolution": 2,
+					"shadePlotCustomDPI": 300,
+					"scaleFactor": 1,
+					"imageOriginX": -26.65999938964844,
+					"imageOriginY": -20.30999938964844,
+					"layoutName": "Screening 100%",
+					"controlFlag": 1,
+					"tabOrder": 3,
+					"minLimit": {
+						"x": -0.2519687479875221,
+						"y": -0.2104072554909262
+					},
+					"maxLimit": {
+						"x": 10.74803101171659,
+						"y": 8.289592504213182
+					},
+					"insertionPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"minExtent": {
+						"x": 1.04960627518301,
+						"y": 0.7996062751830095,
+						"z": 0
+					},
+					"maxExtent": {
+						"x": 9.446456476647084,
+						"y": 7.279579086177946,
+						"z": 0
+					},
+					"elevation": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"paperSpaceTableId": "2CE",
+					"viewportId": "2CF"
+				},
+				{
+					"name": "LAYOUT",
+					"handle": "2D4",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "1A"
+							}
+						],
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "755"
+							}
+						]
+					},
+					"ownerObjectId": "1A",
+					"subclassMarker": "AcDbLayout",
+					"pageSetupName": "",
+					"configName": "DWF6 ePlot.pc3",
+					"paperSize": "ANSI_expand_A_(8.50_x_11.00_Inches)",
+					"plotViewName": "",
+					"marginLeft": 5.793749809265137,
+					"marginBottom": 10.79374980926514,
+					"marginRight": 5.793746948242188,
+					"marginTop": 10.79376220703125,
+					"paperWidth": 215.8999938964844,
+					"paperHeight": 279.3999938964844,
+					"plotOriginX": 19.86059386985283,
+					"plotOriginY": 22.26624338150025,
+					"windowAreaXMin": 0,
+					"windowAreaYMin": 0,
+					"windowAreaXMax": 0,
+					"windowAreaYMax": 0,
+					"printScaleNumerator": 1,
+					"printScaleDenominator": 1,
+					"layoutFlag": 694,
+					"plotPaperUnit": 0,
+					"plotRotation": 1,
+					"plotType": 1,
+					"currentStyleSheet": "Screening 25%.ctb",
+					"standardScaleType": 16,
+					"shadePlotMode": 0,
+					"shadePlotResolution": 2,
+					"shadePlotCustomDPI": 300,
+					"scaleFactor": 1,
+					"imageOriginX": -26.65999938964844,
+					"imageOriginY": -20.30999938964844,
+					"layoutName": "Screening 25%",
+					"controlFlag": 1,
+					"tabOrder": 4,
+					"minLimit": {
+						"x": -0.2519687479875221,
+						"y": -0.2104072554909262
+					},
+					"maxLimit": {
+						"x": 10.74803101171659,
+						"y": 8.289592504213182
+					},
+					"insertionPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"minExtent": {
+						"x": 1.04960627518301,
+						"y": 0.7996062751830095,
+						"z": 0
+					},
+					"maxExtent": {
+						"x": 9.446456476647084,
+						"y": 7.279579086177946,
+						"z": 0
+					},
+					"elevation": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"paperSpaceTableId": "2D5",
+					"viewportId": "2D6"
+				},
+				{
+					"name": "LAYOUT",
+					"handle": "2DB",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "1A"
+							}
+						],
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "757"
+							}
+						]
+					},
+					"ownerObjectId": "1A",
+					"subclassMarker": "AcDbLayout",
+					"pageSetupName": "",
+					"configName": "DWF6 ePlot.pc3",
+					"paperSize": "ANSI_expand_A_(8.50_x_11.00_Inches)",
+					"plotViewName": "",
+					"marginLeft": 5.793749809265137,
+					"marginBottom": 10.79374980926514,
+					"marginRight": 5.793746948242188,
+					"marginTop": 10.79376220703125,
+					"paperWidth": 215.8999938964844,
+					"paperHeight": 279.3999938964844,
+					"plotOriginX": 19.86059386985283,
+					"plotOriginY": 22.26624338150025,
+					"windowAreaXMin": 0,
+					"windowAreaYMin": 0,
+					"windowAreaXMax": 0,
+					"windowAreaYMax": 0,
+					"printScaleNumerator": 1,
+					"printScaleDenominator": 1,
+					"layoutFlag": 694,
+					"plotPaperUnit": 0,
+					"plotRotation": 1,
+					"plotType": 1,
+					"currentStyleSheet": "Screening 50%.ctb",
+					"standardScaleType": 16,
+					"shadePlotMode": 0,
+					"shadePlotResolution": 2,
+					"shadePlotCustomDPI": 300,
+					"scaleFactor": 1,
+					"imageOriginX": -26.65999938964844,
+					"imageOriginY": -20.30999938964844,
+					"layoutName": "Screening 50%",
+					"controlFlag": 1,
+					"tabOrder": 5,
+					"minLimit": {
+						"x": -0.2519687479875221,
+						"y": -0.2104072554909262
+					},
+					"maxLimit": {
+						"x": 10.74803101171659,
+						"y": 8.289592504213182
+					},
+					"insertionPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"minExtent": {
+						"x": 1.04960627518301,
+						"y": 0.7996062751830095,
+						"z": 0
+					},
+					"maxExtent": {
+						"x": 9.446456476647084,
+						"y": 7.279579086177946,
+						"z": 0
+					},
+					"elevation": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"paperSpaceTableId": "2DC",
+					"viewportId": "2DD"
+				},
+				{
+					"name": "LAYOUT",
+					"handle": "2E2",
+					"extensions": {
+						"ACAD_REACTORS": [
+							{
+								"code": 330,
+								"value": "1A"
+							}
+						],
+						"ACAD_XDICTIONARY": [
+							{
+								"code": 360,
+								"value": "759"
+							}
+						]
+					},
+					"ownerObjectId": "1A",
+					"subclassMarker": "AcDbLayout",
+					"pageSetupName": "",
+					"configName": "DWF6 ePlot.pc3",
+					"paperSize": "ANSI_expand_A_(8.50_x_11.00_Inches)",
+					"plotViewName": "",
+					"marginLeft": 5.793749809265137,
+					"marginBottom": 10.79374980926514,
+					"marginRight": 5.793746948242188,
+					"marginTop": 10.79376220703125,
+					"paperWidth": 215.8999938964844,
+					"paperHeight": 279.3999938964844,
+					"plotOriginX": 19.86059386985283,
+					"plotOriginY": 22.26624338150025,
+					"windowAreaXMin": 0,
+					"windowAreaYMin": 0,
+					"windowAreaXMax": 0,
+					"windowAreaYMax": 0,
+					"printScaleNumerator": 1,
+					"printScaleDenominator": 1,
+					"layoutFlag": 694,
+					"plotPaperUnit": 0,
+					"plotRotation": 1,
+					"plotType": 1,
+					"currentStyleSheet": "Screening 75%.ctb",
+					"standardScaleType": 16,
+					"shadePlotMode": 0,
+					"shadePlotResolution": 2,
+					"shadePlotCustomDPI": 300,
+					"scaleFactor": 1,
+					"imageOriginX": -26.65999938964844,
+					"imageOriginY": -20.30999938964844,
+					"layoutName": "Screening 75%",
+					"controlFlag": 1,
+					"tabOrder": 6,
+					"minLimit": {
+						"x": -0.2519687479875221,
+						"y": -0.2104072554909262
+					},
+					"maxLimit": {
+						"x": 10.74803101171659,
+						"y": 8.289592504213182
+					},
+					"insertionPoint": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"minExtent": {
+						"x": 1.04960627518301,
+						"y": 0.7996062751830095,
+						"z": 0
+					},
+					"maxExtent": {
+						"x": 9.446456476647084,
+						"y": 7.279579086177946,
+						"z": 0
+					},
+					"elevation": 0,
+					"ucsOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ucsXAxis": {
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"ucsYAxis": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"orthographicType": 0,
+					"paperSpaceTableId": "2E3",
+					"viewportId": "2E4"
+				}
+			]
+		}
+	}
+}
