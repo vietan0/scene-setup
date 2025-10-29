@@ -124,6 +124,74 @@ function main() {
 		const box = new THREE.BoxHelper(plane, 0xffff00);
 		scene.add(box);
 
+		const bufferGeometry = new THREE.BufferGeometry();
+		// create a simple square shape. We duplicate the top left and bottom right
+		// vertices because each vertex needs to appear once per triangle.
+		const vertices = new Float32Array([
+			-1.0,
+			-1.0,
+			1.0, // v0
+			1.0,
+			-1.0,
+			1.0, // v1
+			1.0,
+			1.0,
+			1.0, // v2
+
+			1.0,
+			1.0,
+			1.0, // v3
+			-1.0,
+			1.0,
+			1.0, // v4
+			-1.0,
+			-1.0,
+			1.0, // v5
+		]);
+
+		// itemSize = 3 because there are 3 values (components) per vertex
+		bufferGeometry.setAttribute('position', new THREE.BufferAttribute(vertices, 3));
+		const meshMaterial = new THREE.MeshBasicMaterial({ color: 0x00ffff });
+		const mesh = new THREE.Mesh(bufferGeometry, meshMaterial);
+		scene.add(mesh);
+
+		const points = [];
+		points.push(new THREE.Vector3(-5, -5, 0));
+		points.push(new THREE.Vector3(5, 5, 0));
+		const lineGeometry = new THREE.BufferGeometry().setFromPoints(points);
+		const line = new THREE.Line(lineGeometry, new THREE.LineBasicMaterial({ color: 'hotpink' }));
+		scene.add(line);
+
+		const caPts = [
+			new THREE.Vector2(6.1, 3.2),
+			new THREE.Vector2(4.5, 3.0),
+			new THREE.Vector2(3.92, 3.92),
+			new THREE.Vector2(2.66, 4.38),
+			new THREE.Vector2(1.9, 5.7),
+			new THREE.Vector2(1.9, 6.0),
+			new THREE.Vector2(1.6, 6.2),
+			new THREE.Vector2(1.6, 6.5),
+			new THREE.Vector2(1.8, 6.4),
+			new THREE.Vector2(1.65, 6.8),
+			new THREE.Vector2(1.5, 6.7),
+			new THREE.Vector2(0.9, 7.37),
+			new THREE.Vector2(0.8, 7.95),
+			new THREE.Vector2(0.5, 8.35),
+			new THREE.Vector2(0.64, 8.7),
+			new THREE.Vector2(0.6, 9.45),
+			new THREE.Vector2(3.0, 9.45),
+			new THREE.Vector2(3.0, 7.43),
+			new THREE.Vector2(6.0, 4.73),
+			new THREE.Vector2(6.26, 4.25),
+			new THREE.Vector2(6.0, 3.7),
+			new THREE.Vector2(6.1, 3.2),
+		];
+
+		const caShape = new THREE.Shape(caPts);
+		const caGeo = new THREE.ShapeGeometry(caShape);
+		const caMaterial = new THREE.MeshBasicMaterial({ color: 'hotpink' });
+		const caMesh = new THREE.Mesh(caGeo, caMaterial);
+		scene.add(caMesh);
 	}
 
 	const mainCam = addMainCam();
