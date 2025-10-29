@@ -29,3 +29,31 @@ h1 {
 	text-align: center;
 	z-index: 100;
 }
+
+#canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.split {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+
+	#view1 {
+		width: 100%;
+		height: 100%;
+	}
+
+	#view2 {
+		width: 250px;
+		height: 180px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+}
