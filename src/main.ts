@@ -37,29 +37,29 @@ function main() {
 	}
 
 	function addMainCam() {
-		const left = -1;
-		const right = 1;
-		const top = 1;
-		const bottom = -1;
+		const left = -25;
+		const right = 25;
+		const top = 25;
+		const bottom = -25;
 		const near = 0.1;
-		const far = 70;
-		const camera1 = new THREE.OrthographicCamera(left, right, top, bottom, near, far);
-		camera1.zoom = 0.03;
-		camera1.position.set(5, 5, 50); // 0,0 would be center - 5,5 to be slightly off
+		const far = 1000;
+		const mainCam = new THREE.OrthographicCamera(left, right, top, bottom, near, far);
+		mainCam.zoom = 0.09;
+		mainCam.position.set(20, 20, 500); // 0,0 would be center
 
-		const controls = new OrbitControls(camera1, view1Elem);
+		const controls = new OrbitControls(mainCam, view1Elem);
 		controls.update();
 
-		return camera1;
+		return mainCam;
 	}
 
 	function addMetaCam() {
-		const camera2 = new THREE.PerspectiveCamera(50, 1, 0.1, 500);
-		camera2.position.set(120, 20, 70);
+		const metaCam = new THREE.PerspectiveCamera(50, 1, 0.1, 5000);
+		metaCam.position.set(120, 50, 1000);
 
-		const controls2 = new OrbitControls(camera2, view2Elem);
+		const controls2 = new OrbitControls(metaCam, view2Elem);
 		controls2.update();
-		return camera2;
+		return metaCam;
 	}
 
 	function addHelpers() {
@@ -67,7 +67,7 @@ function main() {
 		scene.add(cameraHelper);
 		const axesHelper = new THREE.AxesHelper(10);
 		scene.add(axesHelper);
-		const gridHelper = new THREE.GridHelper(50, 50, 0xff00ff);
+		const gridHelper = new THREE.GridHelper(2500, 50, 0xff00ff);
 		gridHelper.material.transparent = true;
 		gridHelper.material.opacity = 0.3;
 		gridHelper.rotation.x = Math.PI / 2;
@@ -79,8 +79,8 @@ function main() {
 		const gui = new GUI();
 		gui.add(mainCam, 'zoom', 0.01, 1, 0.01).listen();
 		const minMaxGUIHelper = new MinMaxGUIHelper(mainCam, 'near', 'far', 0.1);
-		gui.add(minMaxGUIHelper, 'min', 0.1, 50, 0.1).name('near');
-		gui.add(minMaxGUIHelper, 'max', 0.1, 50, 0.1).name('far');
+		gui.add(minMaxGUIHelper, 'min', 0.1, 500, 10).name('near');
+		gui.add(minMaxGUIHelper, 'max', 0.1, 1000, 10).name('far');
 
 		const stats = new Stats();
 		document.body.appendChild(stats.dom);
@@ -91,16 +91,16 @@ function main() {
 		const color = 0xffffff;
 		const intensity = 3;
 		const light = new THREE.DirectionalLight(color, intensity);
-		light.position.set(-20, 10, 10);
+		light.position.set(-200, 100, 100);
 		scene.add(light);
 		scene.add(light.target);
 
-		const helper = new THREE.DirectionalLightHelper(light, 5);
+		const helper = new THREE.DirectionalLightHelper(light, 50);
 		scene.add(helper);
 	}
 
 	function addObjects() {
-		const sphereRadius = 2;
+		const sphereRadius = 50;
 		const sphereWidthDivisions = 32;
 		const sphereHeightDivisions = 16;
 		const sphereGeo = new THREE.SphereGeometry(
@@ -113,7 +113,7 @@ function main() {
 		sphereMesh.position.set(-sphereRadius - 1, sphereRadius + 2, 0);
 		scene.add(sphereMesh);
 
-		const geometry = new THREE.PlaneGeometry(4, 2);
+		const geometry = new THREE.PlaneGeometry(60, 120);
 		const material = new THREE.MeshBasicMaterial({
 			color: 'red',
 			transparent: true,
@@ -128,25 +128,25 @@ function main() {
 		// create a simple square shape. We duplicate the top left and bottom right
 		// vertices because each vertex needs to appear once per triangle.
 		const vertices = new Float32Array([
-			-1.0,
-			-1.0,
-			1.0, // v0
-			1.0,
-			-1.0,
-			1.0, // v1
-			1.0,
-			1.0,
-			1.0, // v2
+			-10,
+			-10,
+			10, // v0
+			10,
+			-10,
+			10, // v1
+			10,
+			10,
+			10, // v2
 
-			1.0,
-			1.0,
-			1.0, // v3
-			-1.0,
-			1.0,
-			1.0, // v4
-			-1.0,
-			-1.0,
-			1.0, // v5
+			10,
+			10,
+			10, // v3
+			-10,
+			10,
+			10, // v4
+			-10,
+			-10,
+			10, // v5
 		]);
 
 		// itemSize = 3 because there are 3 values (components) per vertex
@@ -156,35 +156,35 @@ function main() {
 		scene.add(mesh);
 
 		const points = [];
-		points.push(new THREE.Vector3(-5, -5, 0));
-		points.push(new THREE.Vector3(5, 5, 0));
+		points.push(new THREE.Vector3(-50, -50, 0));
+		points.push(new THREE.Vector3(50, 50, 0));
 		const lineGeometry = new THREE.BufferGeometry().setFromPoints(points);
 		const line = new THREE.Line(lineGeometry, new THREE.LineBasicMaterial({ color: 'hotpink' }));
 		scene.add(line);
 
 		const caPts = [
-			new THREE.Vector2(6.1, 3.2),
-			new THREE.Vector2(4.5, 3.0),
-			new THREE.Vector2(3.92, 3.92),
-			new THREE.Vector2(2.66, 4.38),
-			new THREE.Vector2(1.9, 5.7),
-			new THREE.Vector2(1.9, 6.0),
-			new THREE.Vector2(1.6, 6.2),
-			new THREE.Vector2(1.6, 6.5),
-			new THREE.Vector2(1.8, 6.4),
-			new THREE.Vector2(1.65, 6.8),
-			new THREE.Vector2(1.5, 6.7),
-			new THREE.Vector2(0.9, 7.37),
-			new THREE.Vector2(0.8, 7.95),
-			new THREE.Vector2(0.5, 8.35),
-			new THREE.Vector2(0.64, 8.7),
-			new THREE.Vector2(0.6, 9.45),
-			new THREE.Vector2(3.0, 9.45),
-			new THREE.Vector2(3.0, 7.43),
-			new THREE.Vector2(6.0, 4.73),
-			new THREE.Vector2(6.26, 4.25),
-			new THREE.Vector2(6.0, 3.7),
-			new THREE.Vector2(6.1, 3.2),
+			new THREE.Vector2(610, 320),
+			new THREE.Vector2(450, 300),
+			new THREE.Vector2(392, 392),
+			new THREE.Vector2(266, 438),
+			new THREE.Vector2(190, 570),
+			new THREE.Vector2(190, 600),
+			new THREE.Vector2(160, 620),
+			new THREE.Vector2(160, 650),
+			new THREE.Vector2(180, 640),
+			new THREE.Vector2(165, 680),
+			new THREE.Vector2(150, 670),
+			new THREE.Vector2(90, 737),
+			new THREE.Vector2(80, 795),
+			new THREE.Vector2(50, 835),
+			new THREE.Vector2(64, 870),
+			new THREE.Vector2(60, 945),
+			new THREE.Vector2(300, 945),
+			new THREE.Vector2(300, 743),
+			new THREE.Vector2(600, 473),
+			new THREE.Vector2(626, 425),
+			new THREE.Vector2(600, 370),
+			new THREE.Vector2(610, 320),
 		];
 
 		const caShape = new THREE.Shape(caPts);
@@ -223,8 +223,8 @@ function main() {
 		renderer.setScissorTest(true); // turn on the scissor
 
 		const view1Aspect = setScissorForElement(view1Elem); // render the original view
-		mainCam.left = -view1Aspect;
-		mainCam.right = view1Aspect;
+		mainCam.left = -view1Aspect * 25;
+		mainCam.right = view1Aspect * 25;
 		mainCam.updateProjectionMatrix();
 		cameraHelper.update();
 		cameraHelper.visible = false;
