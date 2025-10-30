@@ -14,9 +14,13 @@ function main() {
 	const canvas = document.getElementById('canvas')!;
 	const view1Elem = document.querySelector('#view1') as HTMLElement;
 	const view2Elem = document.querySelector('#view2') as HTMLElement;
-	const renderer = new THREE.WebGLRenderer({ antialias: true, canvas });
+	const renderer = new THREE.WebGLRenderer({
+		canvas,
+		antialias: true,
+		logarithmicDepthBuffer: true,
+	});
 	const scene = new THREE.Scene();
-	scene.background = new THREE.Color('black');
+	scene.background = new THREE.Color(0xffffff);
 
 	function setScissorForElement(elem: HTMLElement) {
 		const canvasRect = canvas.getBoundingClientRect();
@@ -92,75 +96,6 @@ function main() {
 	}
 
 	function addObjects() {
-		const bufferGeometry = new THREE.BufferGeometry();
-		// create a simple square shape. We duplicate the top left and bottom right
-		// vertices because each vertex needs to appear once per triangle.
-		const vertices = new Float32Array([
-			-10,
-			-10,
-			10, // v0
-			10,
-			-10,
-			10, // v1
-			10,
-			10,
-			10, // v2
-
-			10,
-			10,
-			10, // v3
-			-10,
-			10,
-			10, // v4
-			-10,
-			-10,
-			10, // v5
-		]);
-
-		// itemSize = 3 because there are 3 values (components) per vertex
-		bufferGeometry.setAttribute('position', new THREE.BufferAttribute(vertices, 3));
-		const meshMaterial = new THREE.MeshBasicMaterial({ color: 0x00ffff });
-		const mesh = new THREE.Mesh(bufferGeometry, meshMaterial);
-		scene.add(mesh);
-
-		const points = [];
-		points.push(new THREE.Vector3(-50, -50, 0));
-		points.push(new THREE.Vector3(50, 50, 0));
-		const lineGeometry = new THREE.BufferGeometry().setFromPoints(points);
-		const line = new THREE.Line(lineGeometry, new THREE.LineBasicMaterial({ color: 'hotpink' }));
-		scene.add(line);
-
-		const caPts = [
-			new THREE.Vector2(610, 320),
-			new THREE.Vector2(450, 300),
-			new THREE.Vector2(392, 392),
-			new THREE.Vector2(266, 438),
-			new THREE.Vector2(190, 570),
-			new THREE.Vector2(190, 600),
-			new THREE.Vector2(160, 620),
-			new THREE.Vector2(160, 650),
-			new THREE.Vector2(180, 640),
-			new THREE.Vector2(165, 680),
-			new THREE.Vector2(150, 670),
-			new THREE.Vector2(90, 737),
-			new THREE.Vector2(80, 795),
-			new THREE.Vector2(50, 835),
-			new THREE.Vector2(64, 870),
-			new THREE.Vector2(60, 945),
-			new THREE.Vector2(300, 945),
-			new THREE.Vector2(300, 743),
-			new THREE.Vector2(600, 473),
-			new THREE.Vector2(626, 425),
-			new THREE.Vector2(600, 370),
-			new THREE.Vector2(610, 320),
-		];
-
-		const caShape = new THREE.Shape(caPts);
-		const caGeo = new THREE.ShapeGeometry(caShape);
-		const caMaterial = new THREE.MeshBasicMaterial({ color: 'hotpink' });
-		const ca = new THREE.Mesh(caGeo, caMaterial);
-		scene.add(ca);
-
 		const allSolids = dxf.entities.filter((entity) => entity.type === 'SOLID');
 		allSolids.forEach((solid) => {
 			const { points, colorIndex } = solid;
@@ -225,7 +160,7 @@ function main() {
 		mainCam.updateProjectionMatrix();
 		cameraHelper.update();
 		cameraHelper.visible = false;
-		(scene.background as THREE.Color).set(0x000000);
+		(scene.background as THREE.Color).set(0xffffff);
 		renderer.render(scene, mainCam);
 
 		const view2Aspect = setScissorForElement(view2Elem); // render from the 2nd camera
