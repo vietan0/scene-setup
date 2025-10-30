@@ -1,14 +1,16 @@
 import './style.css';
-import earcut from 'earcut';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/Addons.js';
 import GUI from 'three/examples/jsm/libs/lil-gui.module.min.js';
 import Stats from 'three/examples/jsm/libs/stats.module.js';
-import aci from './aci.json';
-import dxf from './json/plot_screening_and_fill_patterns.json';
+import compressedUrl from './json/plot_screening_and_fill_patterns.json.gz?url';
+import type { DXF } from './types/DXF';
+import loadGz from './utils/loadGz';
 import MinMaxGUIHelper from './utils/MinMaxGUIHelper';
+import renderSolid from './utils/renderSolid';
 import resizeRendererToDisplaySize from './utils/resizeRendererToDisplaySize';
-import sortPolygonVertices from './utils/sortPolygonVertices';
+
+const dxf: DXF = await loadGz(compressedUrl);
 
 function main() {
 	const canvas = document.getElementById('canvas')!;
@@ -78,11 +80,11 @@ function main() {
 	function addHelpers() {
 		const cameraHelper = new THREE.CameraHelper(mainCam);
 		scene.add(cameraHelper);
-		const axesHelper = new THREE.AxesHelper(10);
+		const axesHelper = new THREE.AxesHelper(50);
 		scene.add(axesHelper);
 		const gridHelper = new THREE.GridHelper(2500, 50, 0xff00ff);
 		gridHelper.material.transparent = true;
-		gridHelper.material.opacity = 0.3;
+		gridHelper.material.opacity = 0.5;
 		gridHelper.rotation.x = Math.PI / 2;
 		scene.add(gridHelper);
 		return { cameraHelper, axesHelper, gridHelper };
@@ -106,34 +108,24 @@ function main() {
 	}
 
 	function addObjects() {
-		const allSolids = dxf.entities.filter((entity) => entity.type === 'SOLID');
-		allSolids.forEach((solid) => {
-			const { points, colorIndex } = solid;
-			if (!points) {
-				throw new Error(`Invalid points: ${points}`);
-			}
-			if (!(colorIndex >= 1 && colorIndex <= 255)) {
-				throw new Error(`Invalid colorIndex: ${colorIndex}`);
-			}
-
-			const pointsSorted = sortPolygonVertices(solid.points);
-			const vertices2D: number[] = [];
-
-			for (const p of pointsSorted) {
-				vertices2D.push(p.x, p.y);
-			}
-
-			const indices = earcut(vertices2D);
-			const vertices3D = new Float32Array(pointsSorted.flatMap((p) => [p.x, p.y, p.z]));
-			const geo = new THREE.BufferGeometry();
-			geo.setAttribute('position', new THREE.BufferAttribute(vertices3D, 3));
-			geo.setIndex(new THREE.BufferAttribute(new Uint16Array(indices), 1));
-			const solidMaterial = new THREE.MeshBasicMaterial({
-				color: `#${aci[colorIndex]}`,
-				side: THREE.DoubleSide,
-			});
-			const solidMesh = new THREE.Mesh(geo, solidMaterial);
+		const solids = dxf.entities.filter((entity) => entity.type === 'SOLID');
+		solids.forEach((solid) => {
+			const solidMesh = renderSolid(solid);
 			scene.add(solidMesh);
+		});
+
+		const inserts = dxf.entities.filter((entity) => entity.type === 'INSERT');
+		const colorSwatchBlock = dxf.blocks['Color Swatch'];
+		inserts.forEach((insert) => {
+			const insertMesh = renderSolid(
+				colorSwatchBlock.entities[0],
+				insert.insertionPoint,
+				insert.colorIndex,
+				insert.xScale,
+				undefined,
+				insert.rotation,
+			);
+			scene.add(insertMesh);
 		});
 	}
 
@@ -188,31 +180,16 @@ function main() {
 
 main();
 
-function logJsonInfo() {
+async function logDxfInfo() {
 	const allTypes = dxf.entities.map((entity) => entity.type);
 	const allPossibleTypes = new Set();
 	allTypes.forEach((type) => {
 		allPossibleTypes.add(type);
 	});
-	// console.log('allPossibleTypes', allPossibleTypes);
+	console.log('allPossibleTypes', allPossibleTypes);
 
-	// const allSolids = dxf.entities.filter((entity) => entity.type === 'SOLID');
-	// console.log('allSolids', allSolids);
-
-	// 04.QH:
-	// [
-	//   "LINE",
-	//   "LWPOLYLINE",
-	//   "CIRCLE",
-	//   "ARC",
-	//   "HATCH",
-	//   "TEXT",
-	//   "MTEXT",
-	//   "ATTRIB",
-	//   "ATTDEF",
-	//   "DIMENSION",
-	//   "LEADER",
-	//   "VIEWPORT",
-	// ]
+	const target = dxf.entities.filter((entity) => entity.type === 'HATCH');
+	console.log('target.length', target.length);
+	console.log('target', target);
 }
-logJsonInfo();
+logDxfInfo();
