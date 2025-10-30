@@ -53,9 +53,14 @@ function main() {
 		const far = 1000;
 		const mainCam = new THREE.OrthographicCamera(left, right, top, bottom, near, far);
 		mainCam.zoom = 0.09;
-		mainCam.position.set(20, 20, 500); // 0,0 would be center
+		mainCam.position.set(0, 0, 500); // 0,0 would be center
 
 		const controls = new OrbitControls(mainCam, view1Elem);
+		controls.zoomToCursor = true;
+		controls.mouseButtons = {
+			LEFT: THREE.MOUSE.PAN,
+			RIGHT: THREE.MOUSE.ROTATE,
+		};
 		controls.update();
 
 		return mainCam;
@@ -85,6 +90,11 @@ function main() {
 
 	function addGUIs() {
 		const gui = new GUI();
+		const mainCamFolder = gui.addFolder('mainCam position');
+		mainCamFolder.add(mainCam.position, 'x', 1, 200, 10).listen();
+		mainCamFolder.add(mainCam.position, 'y', 1, 200, 10).listen();
+		mainCamFolder.add(mainCam.position, 'z', 1, 200, 10).listen();
+		mainCamFolder.open(); // Optionally open the folder by default
 		gui.add(mainCam, 'zoom', 0.01, 1, 0.01).listen();
 		const minMaxGUIHelper = new MinMaxGUIHelper(mainCam, 'near', 'far', 0.1);
 		gui.add(minMaxGUIHelper, 'min', 0.1, 500, 10).name('near');
