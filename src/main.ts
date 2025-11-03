@@ -26,16 +26,16 @@ function main() {
 	scene.background = new THREE.Color(0xffffff);
 
 	const mult = 20000;
+	const left = -mult;
+	const right = mult;
+	const top = mult;
+	const bottom = -mult;
+	const near = 0.1;
+	const far = 50 * mult;
 
 	function addMainCam() {
-		const left = -mult;
-		const right = mult;
-		const top = mult;
-		const bottom = -mult;
-		const near = 0.1;
-		const far = 15 * mult;
 		const mainCam = new THREE.OrthographicCamera(left, right, top, bottom, near, far);
-		mainCam.zoom = 0.1;
+		mainCam.zoom = 10;
 		mainCam.position.set(0, 0, far / 2);
 
 		const controls = new OrbitControls(mainCam, view1Elem);
@@ -175,18 +175,13 @@ function main() {
 	const { stats } = addGUIs();
 	addViewports();
 	addObjects();
-	mainCam.position.set(
-		dxf.tables.VPORT.entries[0].viewTarget.x,
-		dxf.tables.VPORT.entries[0].viewTarget.y,
-		// dxf.tables.VPORT.entries[0].viewTarget.z,
-		0,
-	);
+	const { x, y } = dxf.tables.VPORT.entries[0].viewTarget;
+	mainCam.position.set(x, y, mult / 2);
 
 	function setScissorForElement(elem: HTMLElement) {
 		const canvasRect = canvas.getBoundingClientRect();
 		const elemRect = elem.getBoundingClientRect();
 
-		// compute a canvas relative rectangle
 		const right = Math.min(elemRect.right, canvasRect.right) - canvasRect.left;
 		const left = Math.max(0, elemRect.left - canvasRect.left);
 		const bottom = Math.min(elemRect.bottom, canvasRect.bottom) - canvasRect.top;
@@ -195,12 +190,10 @@ function main() {
 		const width = Math.min(canvasRect.width, right - left);
 		const height = Math.min(canvasRect.height, bottom - top);
 
-		// setup the scissor to only render to that part of the canvas
 		const positiveYUpBottom = canvasRect.height - bottom;
 		renderer.setScissor(left, positiveYUpBottom, width, height);
 		renderer.setViewport(left, positiveYUpBottom, width, height);
 
-		// return the aspect
 		return width / height;
 	}
 	function onWindowResize() {
@@ -225,9 +218,7 @@ function main() {
 		mainCam.left = -view1Aspect * mult;
 		mainCam.right = view1Aspect * mult;
 		mainCam.updateProjectionMatrix();
-		// const worldPosition = new THREE.Vector3();
-		// console.log('mainCam pos', mainCam.getWorldPosition(worldPosition));
-		// console.log('mainCam dimensions', mainCam.left, mainCam.right, mainCam.top, mainCam.bottom);
+		mainCam.rotation.set(0, 0, 0);
 		cameraHelper.update();
 		cameraHelper.visible = false;
 		(scene.background as THREE.Color).set(0xffffff);
