@@ -142,11 +142,8 @@ function main() {
 		// });
 
 		const polylines = dxf.entities.filter((entity) => entity.type === 'LWPOLYLINE');
+		const layers = dxf.tables.LAYER.entries;
 		polylines.forEach((polyline) => {
-			if (polyline.colorIndex === undefined) {
-				// console.log('polyline', polyline); // layer KI HIEU
-				// console.log('color', getColorFromACI(polyline.colorIndex || 1));
-			}
 			const positions: number[] = [];
 
 			polyline.vertices.forEach((v: { x: number; y: number }) => {
@@ -160,8 +157,9 @@ function main() {
 			const positionAttribute = new THREE.Float32BufferAttribute(positions, 3);
 			geometry.setAttribute('position', positionAttribute);
 
+			const parentLayer = layers.find((layerObj) => layerObj.name === polyline.layer)!;
 			const material = new THREE.LineBasicMaterial({
-				color: getColorFromACI(polyline.colorIndex || 1),
+				color: getColorFromACI(polyline.colorIndex || parentLayer.colorIndex),
 			});
 
 			const line = new THREE.Line(geometry, material);
