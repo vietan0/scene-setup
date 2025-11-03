@@ -3,8 +3,9 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/Addons.js';
 import GUI from 'three/examples/jsm/libs/lil-gui.module.min.js';
 import Stats from 'three/examples/jsm/libs/stats.module.js';
-import compressedUrl from './json/plot_screening_and_fill_patterns.json.gz?url';
+import compressedUrl from './json/04.QH.json.gz?url';
 import type { DXF } from './types/DXF';
+import getColorFromACI from './utils/getColorFromACI';
 import loadGz from './utils/loadGz';
 import MinMaxGUIHelper from './utils/MinMaxGUIHelper';
 import renderSolid from './utils/renderSolid';
@@ -24,7 +25,7 @@ function main() {
 	const scene = new THREE.Scene();
 	scene.background = new THREE.Color(0xffffff);
 
-	const mult = 20;
+	const mult = 20000;
 
 	function addMainCam() {
 		const left = -mult;
@@ -89,6 +90,8 @@ function main() {
 
 	function addViewports() {
 		const viewports = dxf.entities.filter((entity) => entity.type === 'VIEWPORT');
+		// console.log('viewports', viewports);
+		console.log('dxf.tables.VPORT.entries[0]', dxf.tables.VPORT.entries[0]);
 		viewports.forEach((vp) => {
 			const aspect = vp.width / vp.height;
 			const viewHeight = vp.viewHeight;
@@ -110,6 +113,9 @@ function main() {
 				new THREE.LineBasicMaterial({ color: 0x000000 }),
 			);
 			plane.add(outline);
+
+			// const worldPosition = new THREE.Vector3();
+			// console.log('viewport pos', plane.getWorldPosition(worldPosition));
 		});
 	}
 
@@ -119,24 +125,28 @@ function main() {
 			const solidMesh = renderSolid(solid);
 			scene.add(solidMesh);
 		});
-		const inserts = dxf.entities.filter((entity) => entity.type === 'INSERT');
-		const colorSwatchBlock = dxf.blocks['Color Swatch'];
-		inserts.forEach((insert) => {
-			const { colorIndex } = insert;
+		// const inserts = dxf.entities.filter((entity) => entity.type === 'INSERT');
+		// const colorSwatchBlock = dxf.blocks['Color Swatch'];
+		// inserts.forEach((insert) => {
+		// 	const { colorIndex } = insert;
 
-			const insertMesh = renderSolid(
-				colorSwatchBlock.entities[0],
-				insert.insertionPoint,
-				colorIndex,
-				insert.xScale,
-				undefined,
-				insert.rotation,
-			);
-			scene.add(insertMesh);
-		});
+		// 	const insertMesh = renderSolid(
+		// 		colorSwatchBlock.entities[0],
+		// 		insert.insertionPoint,
+		// 		colorIndex,
+		// 		insert.xScale,
+		// 		undefined,
+		// 		insert.rotation,
+		// 	);
+		// 	scene.add(insertMesh);
+		// });
 
-		const target = dxf.entities.filter((entity) => entity.type === 'LWPOLYLINE').slice(0, 10);
-		target.forEach((polyline) => {
+		const polylines = dxf.entities.filter((entity) => entity.type === 'LWPOLYLINE');
+		polylines.forEach((polyline) => {
+			if (polyline.colorIndex === undefined) {
+				// console.log('polyline', polyline); // layer KI HIEU
+				// console.log('color', getColorFromACI(polyline.colorIndex || 1));
+			}
 			const positions: number[] = [];
 
 			polyline.vertices.forEach((v: { x: number; y: number }) => {
@@ -150,18 +160,11 @@ function main() {
 			const positionAttribute = new THREE.Float32BufferAttribute(positions, 3);
 			geometry.setAttribute('position', positionAttribute);
 
-			// 2. Material (using LineBasicMaterial)
-			// You can use entity data like 'layer' or 'lineType' to determine color/style
 			const material = new THREE.LineBasicMaterial({
-				color: 0xff0000,
-				// linewidth: polyline.constantWidth || 1, // Use constantWidth if applicable
-				linewidth: 1000,
+				color: getColorFromACI(polyline.colorIndex || 1),
 			});
 
-			// 3. Line Object
 			const line = new THREE.Line(geometry, material);
-
-			// Add to the scene
 			scene.add(line);
 		});
 	}
@@ -172,6 +175,12 @@ function main() {
 	const { stats } = addGUIs();
 	addViewports();
 	addObjects();
+	mainCam.position.set(
+		dxf.tables.VPORT.entries[0].viewTarget.x,
+		dxf.tables.VPORT.entries[0].viewTarget.y,
+		// dxf.tables.VPORT.entries[0].viewTarget.z,
+		0,
+	);
 
 	function setScissorForElement(elem: HTMLElement) {
 		const canvasRect = canvas.getBoundingClientRect();
@@ -216,6 +225,9 @@ function main() {
 		mainCam.left = -view1Aspect * mult;
 		mainCam.right = view1Aspect * mult;
 		mainCam.updateProjectionMatrix();
+		// const worldPosition = new THREE.Vector3();
+		// console.log('mainCam pos', mainCam.getWorldPosition(worldPosition));
+		// console.log('mainCam dimensions', mainCam.left, mainCam.right, mainCam.top, mainCam.bottom);
 		cameraHelper.update();
 		cameraHelper.visible = false;
 		(scene.background as THREE.Color).set(0xffffff);
